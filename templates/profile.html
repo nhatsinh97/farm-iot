@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <style>
+        /* CSS tùy chỉnh cho trang profile */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 50px;
+            border-radius: 8px;
+        }
+
+        .profile-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+        }
+
+        .profile-header h1 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        .profile-header img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+
+        .profile-content {
+            margin-top: 20px;
+        }
+
+        .profile-content h2 {
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        .profile-form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .profile-form label {
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .profile-form input[type="text"],
+        .profile-form input[type="password"],
+        .profile-form input[type="file"] {
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            width: 100%;
+        }
+
+        .profile-form button {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .profile-form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-header">
+            <h1>Thông tin tài khoản của {{ user.username }}</h1>
+            <img src="{{ user.avatar }}" alt="Avatar" class="profile-avatar">
+            <!-- <img src="/path/to/avatar/{{ user.username }}.jpg" alt="Avatar"> -->
+        </div>
+
+        <div class="profile-content">
+            <!-- Thay đổi ảnh đại diện -->
+            <h2>Thay đổi ảnh đại diện</h2>
+            <form action="/change_avatar" method="POST" enctype="multipart/form-data" class="profile-form">
+                <label for="avatar">Chọn ảnh đại diện mới:</label>
+                <input type="file" name="avatar" id="avatar">
+                <button type="submit">Thay đổi ảnh đại diện</button>
+            </form>
+
+            <!-- Thay đổi mật khẩu -->
+            <h2>Thay đổi mật khẩu</h2>
+            <form action="/change_password" method="POST" class="profile-form">
+                <label for="old_password">Mật khẩu cũ:</label>
+                <input type="password" name="old_password" id="old_password" required>
+
+                <label for="new_password">Mật khẩu mới:</label>
+                <input type="password" name="new_password" id="new_password" required>
+
+                <label for="confirm_password">Xác nhận mật khẩu mới:</label>
+                <input type="password" name="confirm_password" id="confirm_password" required>
+
+                <button type="submit">Đổi mật khẩu</button>
+            </form>
+
+            <!-- Hiển thị các thông tin khác -->
+            <h2>Thông tin chi tiết</h2>
+            <ul>
+                <li>Username: {{ user.username }}</li>
+                <li>Quyền hạn: {{ user.role }}</li>
+                <li>Permissions: {{ user.permissions | join(', ') }}</li>
+                <a href="{{ url_for('trangchinh') }}" class="btn btn-secondary">Back to Dashboard</a>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

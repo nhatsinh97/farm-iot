@@ -1,0 +1,15 @@
+2024-10-01 17:32:57,620 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:46] Start: GF-CICO
+2024-10-01 17:32:57,932 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:46] Start: GF-CICO
+2024-10-01 17:35:08,466 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:46] Start: GF-CICO
+2024-10-01 17:37:06,067 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:46] Start: GF-CICO
+2024-10-01 17:37:23,715 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:109] Dữ liệu không trùng khớp hoặc không tìm thấy.
+2024-10-01 17:38:18,914 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:46] Start: GF-CICO
+2024-10-01 17:45:08,656 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:46] Start: GF-CICO
+2024-10-01 17:46:19,607 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:46] Start: GF-CICO
+2024-10-01 17:47:07,601 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:46] Start: GF-CICO
+2024-10-01 18:13:13,088 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-10-01 18:35:02,120 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-10-01 18:41:06,028 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:109] Dữ liệu không trùng khớp hoặc không tìm thấy.
+2024-10-01 20:04:18,706 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:46] Start: GF-CICO

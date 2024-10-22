@@ -1,0 +1,812 @@
+2024-09-19 03:32:07,994 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA4', 'action_name': 'start', 'timer': '29'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-09-19 03:32:07,995 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-09-19 04:03:14,445 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA4', 'action_name': 'end', 'timer': '29'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-09-19 04:03:14,445 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-09-19 06:44:49,734 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv4 -> end
+2024-09-19 06:44:50,590 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv4 -> end
+2024-09-19 06:44:51,265 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv4 -> end
+2024-09-19 06:44:52,046 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv4
+2024-09-19 06:54:36,383 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-19 07:25:24,429 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-09-19 07:26:05,232 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-19 07:26:20,827 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-09-19 07:47:03,312 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA3', 'action_name': 'start', 'timer': '86'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-09-19 07:47:03,313 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-09-19 07:51:05,176 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA1', 'action_name': 'start', 'timer': '86'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-09-19 07:51:05,177 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-09-19 07:57:47,787 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA3', 'action_name': 'end', 'timer': '86'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-09-19 07:57:47,788 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-09-19 08:01:24,083 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA3', 'action_name': 'start', 'timer': '86'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-09-19 08:01:24,083 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-09-19 09:21:11,736 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA1', 'action_name': 'end', 'timer': '86'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-09-19 09:21:11,738 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-09-19 09:32:01,278 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA3', 'action_name': 'end', 'timer': '86'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-09-19 09:32:01,279 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-09-19 10:37:58,974 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-19 10:53:08,925 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA3', 'action_name': 'start', 'timer': '86'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-09-19 10:53:08,925 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-09-19 11:12:11,630 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA1', 'action_name': 'start', 'timer': '86'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-09-19 11:12:11,631 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-09-19 12:10:22,304 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-19 12:23:43,016 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA3', 'action_name': 'end', 'timer': '86'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-09-19 12:23:43,016 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-09-19 12:42:14,480 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA1', 'action_name': 'end', 'timer': '86'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-09-19 12:42:14,481 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-09-19 13:52:56,669 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA1', 'action_name': 'start', 'timer': '86'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-09-19 13:52:56,670 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-09-19 14:18:16,836 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-19 14:18:52,228 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-19 14:23:41,436 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-19 14:23:42,068 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-19 14:35:36,035 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-19 14:35:36,664 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-19 14:36:39,072 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-19 14:36:39,672 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-19 14:36:43,854 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-19 14:36:44,488 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 14:37:45,169 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-19 14:37:45,275 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-09-19 14:37:45,471 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-19 14:37:45,564 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv4 -> end
+2024-09-19 14:40:54,656 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-19 14:41:00,041 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-19 14:41:58,857 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-19 14:42:00,672 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-19 14:44:14,465 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-19 14:44:15,658 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-19 14:50:30,674 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-09-19 15:17:35,359 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-19 15:17:35,972 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-19 15:17:38,972 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-19 15:17:39,596 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:17:42,658 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:17:44,344 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:17:46,739 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:17:47,345 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:17:52,778 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:17:53,354 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:17:55,216 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:17:56,380 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:17:58,745 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:17:59,336 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:18:01,165 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:18:02,331 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:19:03,027 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-19 15:19:03,089 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-09-19 15:19:03,264 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-09-19 15:19:03,337 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv4 -> end
+2024-09-19 15:19:19,017 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-19 15:19:19,637 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-19 15:19:37,015 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:19:37,691 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:19:43,050 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:19:43,611 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:19:46,037 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:19:46,678 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:19:56,818 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:19:58,050 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:20:08,248 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-19 15:20:09,412 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-19 15:20:12,437 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-19 15:20:13,017 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:20:16,032 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:20:16,624 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:20:23,237 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:20:23,812 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:20:30,418 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:20:31,633 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:20:34,048 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:20:35,236 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:20:38,195 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:20:39,439 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:20:42,466 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:20:43,618 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:20:45,433 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:20:47,242 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:20:49,672 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:20:50,850 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:20:53,279 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:20:54,412 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:20:56,901 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:20:58,043 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:21:00,443 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:21:01,624 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:21:04,038 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:21:05,216 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:21:07,041 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:21:08,226 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:21:10,623 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-19 15:21:11,838 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-19 15:21:14,240 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-19 15:21:15,436 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:21:17,816 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:21:19,018 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:21:21,432 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:21:22,631 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:21:25,033 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:21:26,822 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:21:28,628 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:21:30,442 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:21:32,227 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:21:34,056 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:21:35,860 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:21:37,624 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:21:39,413 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:21:40,658 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:21:43,004 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:21:44,222 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:21:46,038 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:21:47,222 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:21:49,652 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:21:50,806 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:21:52,606 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:21:54,420 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:21:56,208 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:21:58,027 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:22:00,447 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:22:02,237 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:22:04,622 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:22:06,431 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:22:11,831 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-19 15:22:11,934 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-19 15:22:12,448 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-19 15:22:14,236 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:22:16,635 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:22:17,824 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:22:20,228 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:22:21,439 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:22:23,878 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:22:25,077 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:22:27,426 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:22:28,664 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:22:31,017 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:22:32,820 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:22:35,222 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:22:37,627 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:22:41,235 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:22:43,039 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:22:46,067 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:22:47,225 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:22:49,671 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:22:50,836 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:23:02,788 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA1', 'action_name': 'end', 'timer': '86'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-09-19 15:23:02,789 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-09-19 15:23:51,536 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-19 15:23:51,634 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-09-19 15:23:51,849 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-09-19 15:23:51,968 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv4 -> end
+2024-09-19 15:24:59,282 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-19 15:24:59,957 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-19 15:27:05,898 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-19 15:27:06,464 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-19 15:27:21,073 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-19 15:27:26,284 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:27:32,896 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:27:34,666 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:27:49,662 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:27:53,297 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:27:59,273 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:28:04,685 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:28:11,296 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-19 15:28:13,705 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-19 15:28:38,879 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-19 15:28:42,472 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:29:43,251 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-19 15:29:43,369 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-09-19 15:29:43,478 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-09-19 15:29:43,687 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv4 -> end
+2024-09-19 15:34:59,967 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-19 15:35:01,182 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-19 15:35:04,178 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-19 15:35:05,384 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:35:08,975 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:35:10,188 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:35:17,987 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:35:19,794 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:35:22,822 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:35:24,574 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:35:27,573 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:35:29,365 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:35:32,365 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:35:34,152 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:35:36,558 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:35:37,756 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:36:38,469 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-19 15:36:38,523 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-09-19 15:36:38,696 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-09-19 15:36:38,791 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv4 -> end
+2024-09-19 15:39:03,469 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-19 15:39:04,657 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-19 15:39:07,047 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-19 15:39:07,649 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:39:13,657 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:39:14,843 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:39:26,265 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:39:26,879 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:39:28,659 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:39:29,864 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:39:31,656 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:39:32,262 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:39:34,100 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:39:36,454 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:39:37,049 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:39:37,664 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:39:40,059 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:39:40,653 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:39:41,262 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:39:43,079 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:39:44,255 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:39:44,860 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:39:55,065 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:39:55,667 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:39:56,866 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:39:57,454 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:39:59,868 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:40:00,471 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:40:01,078 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:40:01,721 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:40:02,263 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:40:04,706 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-19 15:40:05,269 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-19 15:40:05,856 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-19 15:40:06,457 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:40:07,056 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:40:14,266 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:40:15,464 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:40:16,063 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:40:19,067 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:40:20,264 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:40:29,871 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:40:30,468 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:40:34,665 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:40:35,261 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:40:38,274 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:40:38,875 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:40:39,470 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:40:40,094 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:40:43,051 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:40:43,661 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:40:45,448 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:40:47,260 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:40:54,463 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:40:55,066 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:40:55,682 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:41:05,853 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-19 15:41:06,524 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-19 15:41:09,486 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-19 15:41:10,663 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:41:12,466 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:41:13,671 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:41:14,878 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:41:15,468 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:41:19,068 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:41:20,293 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:41:22,699 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:41:23,865 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:41:25,666 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:41:26,878 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:41:29,273 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:41:31,074 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:41:32,257 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:41:33,472 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:41:35,873 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:41:40,063 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:41:40,662 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:41:41,305 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:41:41,888 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:41:42,495 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:41:48,468 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:41:49,678 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:41:52,063 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:41:53,860 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:41:56,282 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:41:57,462 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:41:59,859 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:42:02,269 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:42:04,068 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:42:05,259 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:42:07,663 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-19 15:42:08,913 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-19 15:42:09,474 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-19 15:42:10,066 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:42:23,866 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:42:25,109 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:42:28,677 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:42:29,301 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:42:31,648 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:42:33,464 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:42:35,869 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:42:37,067 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:42:39,480 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:42:41,285 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:43:42,007 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-19 15:43:42,109 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-19 15:43:42,226 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-09-19 15:43:42,303 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-09-19 15:43:42,498 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv4 -> end
+2024-09-19 15:43:43,170 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-19 15:43:49,153 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:43:50,350 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:43:53,345 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:43:54,556 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:43:57,549 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:43:58,162 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:44:15,565 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:44:16,165 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:44:18,547 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:44:19,159 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:44:36,557 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:44:37,169 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:44:56,985 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-19 15:44:58,161 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-19 15:45:00,578 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-19 15:45:01,755 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:45:04,760 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:45:05,958 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:45:08,366 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:45:09,572 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:45:10,169 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:45:10,779 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:45:11,362 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:45:12,570 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:45:14,365 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:45:15,576 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:45:17,372 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:45:18,563 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:45:19,169 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:45:19,770 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:45:20,365 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:45:22,769 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:45:30,579 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:45:44,366 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:46:45,149 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-19 15:46:45,284 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-09-19 15:46:45,378 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-09-19 15:46:45,570 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv4 -> end
+2024-09-19 15:49:52,840 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-19 15:49:53,419 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-19 15:50:03,673 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-19 15:50:04,242 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:50:06,367 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:50:07,240 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:50:09,036 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:50:09,626 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:50:11,514 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:50:12,625 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:50:14,500 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:50:15,647 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:50:17,440 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:50:18,639 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:50:20,433 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:50:21,626 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:50:23,455 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:50:24,641 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:50:27,042 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:50:28,253 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:50:30,040 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:50:31,256 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:50:35,462 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:50:36,628 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:50:40,844 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:50:42,055 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:50:43,864 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:50:44,452 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-19 15:51:16,219 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-19 15:51:45,151 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-19 15:51:45,276 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-09-19 15:51:45,337 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-09-19 15:51:45,507 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv4 -> end
+2024-09-19 16:54:30,281 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-19 17:04:18,307 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-09-19 17:26:48,290 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-09-19 18:39:57,257 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-09-19 19:33:19,012 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA3', 'action_name': 'start', 'timer': '86'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-09-19 19:33:19,012 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-09-19 21:03:58,789 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA3', 'action_name': 'end', 'timer': '86'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-09-19 21:03:58,790 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Permissions for {{ user['username'] }}</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Edit Permissions for {{ user['username'] }}</h1>
+        
+        <form action="{{ url_for('edit_user_permissions', username=user['username']) }}" method="POST">
+            <div>
+                <label>
+                    <input type="checkbox" name="permissions" value="view_dashboard" 
+                    {% if 'view_dashboard' in user['permissions'] %}checked{% endif %}> View Dashboard
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox" name="permissions" value="manage_users" 
+                    {% if 'manage_users' in user['permissions'] %}checked{% endif %}> Manage Users
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox" name="permissions" value="view_reports" 
+                    {% if 'view_reports' in user['permissions'] %}checked{% endif %}> View Reports
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox" name="permissions" value="edit_settings" 
+                    {% if 'edit_settings' in user['permissions'] %}checked{% endif %}> Edit Settings
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox" name="permissions" value="access_history" 
+                    {% if 'access_history' in user['permissions'] %}checked{% endif %}> access_history
+                </label>
+            </div>
+            <button type="submit">Save Permissions</button>
+        </form>
+        
+        
+        <a href="{{ url_for('manage_users') }}">Back to Manage Users</a>
+    </div>
+</body>
+</html>

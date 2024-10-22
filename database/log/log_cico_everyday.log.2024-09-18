@@ -1,0 +1,2094 @@
+2024-09-18 09:35:50,556 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 09:35:56,659 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA3', 'action_name': 'start', 'timer': '89'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 09:35:56,660 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 181134ab4c24
+2024-09-18 11:10:14,459 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv2",
+    "status": "end"
+}
+2024-09-18 11:10:20,281 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA3', 'action_name': 'end', 'timer': '89'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 11:10:20,282 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 181134ab4c24
+2024-09-18 11:11:02,990 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 11:11:07,399 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA3', 'action_name': 'start', 'timer': '89'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 11:11:07,400 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 181134ab4c24
+2024-09-18 11:11:07,402 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv2",
+    "status": "end"
+}
+2024-09-18 11:11:09,371 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA3', 'action_name': 'end', 'timer': '89'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 11:11:09,372 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 181134ab4c24
+2024-09-18 11:11:22,818 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 11:11:27,426 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA3', 'action_name': 'start', 'timer': '89'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 11:11:27,426 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 181134ab4c24
+2024-09-18 11:11:27,429 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv2",
+    "status": "end"
+}
+2024-09-18 11:11:29,382 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA3', 'action_name': 'end', 'timer': '89'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 11:11:29,382 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 181134ab4c24
+2024-09-18 11:11:29,385 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 11:11:34,094 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA3', 'action_name': 'start', 'timer': '89'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 11:11:34,095 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 181134ab4c24
+2024-09-18 11:11:34,097 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv2",
+    "status": "end"
+}
+2024-09-18 11:11:36,131 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA3', 'action_name': 'end', 'timer': '89'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 11:11:36,132 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 181134ab4c24
+2024-09-18 11:11:36,135 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 11:11:41,217 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA3', 'action_name': 'start', 'timer': '89'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 11:11:41,218 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 181134ab4c24
+2024-09-18 11:11:41,221 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv2",
+    "status": "end"
+}
+2024-09-18 11:11:43,257 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA3', 'action_name': 'end', 'timer': '89'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 11:11:43,257 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 181134ab4c24
+2024-09-18 11:11:43,260 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 11:11:48,087 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA3', 'action_name': 'start', 'timer': '89'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 11:11:48,088 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 181134ab4c24
+2024-09-18 11:11:48,090 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv2",
+    "status": "end"
+}
+2024-09-18 11:11:50,281 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA3', 'action_name': 'end', 'timer': '89'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 11:11:50,282 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 181134ab4c24
+2024-09-18 11:11:50,285 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 11:11:54,742 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA3', 'action_name': 'start', 'timer': '89'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 11:11:54,743 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 181134ab4c24
+2024-09-18 11:11:54,746 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv2",
+    "status": "end"
+}
+2024-09-18 11:11:56,796 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA3', 'action_name': 'end', 'timer': '89'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 11:11:56,799 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 181134ab4c24
+2024-09-18 11:11:56,803 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 11:12:02,009 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA3', 'action_name': 'start', 'timer': '89'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 11:12:02,010 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 181134ab4c24
+2024-09-18 11:12:02,013 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv2",
+    "status": "end"
+}
+2024-09-18 11:12:03,803 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA3', 'action_name': 'end', 'timer': '89'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 11:12:03,804 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 181134ab4c24
+2024-09-18 11:12:33,302 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 11:12:38,236 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA3', 'action_name': 'start', 'timer': '89'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 11:12:38,237 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 181134ab4c24
+2024-09-18 11:12:38,240 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv2",
+    "status": "end"
+}
+2024-09-18 11:12:40,613 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA3', 'action_name': 'end', 'timer': '89'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 11:12:40,614 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 181134ab4c24
+2024-09-18 13:57:24,592 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv3",
+    "status": "start"
+}
+2024-09-18 13:57:31,720 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA2', 'action_name': 'start', 'timer': '28'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 13:57:31,721 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 181134ab4c24
+2024-09-18 14:28:03,390 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv3",
+    "status": "end"
+}
+2024-09-18 14:28:09,289 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA2', 'action_name': 'end', 'timer': '28'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 14:28:09,291 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 181134ab4c24
+2024-09-18 14:32:30,139 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv3",
+    "status": "start"
+}
+2024-09-18 14:32:34,550 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA2', 'action_name': 'start', 'timer': '28'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 14:32:34,554 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 181134ab4c24
+2024-09-18 14:32:34,557 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv3",
+    "status": "end"
+}
+2024-09-18 14:32:36,480 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA2', 'action_name': 'end', 'timer': '28'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 14:32:36,480 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 181134ab4c24
+2024-09-18 15:14:46,588 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 15:14:46,589 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-09-18 15:24:25,869 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA1', 'action_name': 'start', 'timer': '90'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 15:24:25,870 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-09-18 16:20:50,018 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv2",
+    "status": "end"
+}
+2024-09-18 16:20:50,019 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-09-18 16:21:05,486 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 16:21:05,486 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-09-18 16:21:06,982 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv2",
+    "status": "end"
+}
+2024-09-18 16:21:06,982 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-09-18 16:21:11,227 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 16:21:11,228 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-09-18 16:21:12,433 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv2",
+    "status": "end"
+}
+2024-09-18 16:21:12,433 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-09-18 16:21:13,652 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 16:21:13,653 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-09-18 16:21:14,862 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv2",
+    "status": "end"
+}
+2024-09-18 16:21:14,862 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-09-18 16:21:16,494 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 16:21:16,495 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-09-18 16:21:17,766 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv2",
+    "status": "end"
+}
+2024-09-18 16:21:17,767 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-09-18 16:21:22,967 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 16:21:22,967 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-09-18 16:21:24,149 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv2",
+    "status": "end"
+}
+2024-09-18 16:21:24,150 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-09-18 16:21:27,464 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 16:21:27,464 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-09-18 16:21:28,663 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv2",
+    "status": "end"
+}
+2024-09-18 16:21:28,663 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-09-18 16:22:07,012 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 16:22:07,012 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-09-18 16:22:08,228 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv2",
+    "status": "end"
+}
+2024-09-18 16:22:08,229 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-09-18 16:34:55,390 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA3', 'action_name': 'start', 'timer': '90'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 16:34:55,390 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-09-18 16:54:36,754 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA1', 'action_name': 'end', 'timer': '90'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 16:54:36,754 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-09-18 17:07:22,864 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA1', 'action_name': 'start', 'timer': '90'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 17:07:22,866 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-09-18 17:15:11,807 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA1', 'action_name': 'end', 'timer': '90'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 17:15:11,808 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-09-18 17:15:21,251 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA1', 'action_name': 'start', 'timer': '90'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 17:15:21,252 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-09-18 17:15:27,008 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA3', 'action_name': 'end', 'timer': '90'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 17:15:27,009 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-09-18 17:15:41,955 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA3', 'action_name': 'start', 'timer': '90'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 17:15:41,956 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-09-18 17:15:43,975 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA1', 'action_name': 'end', 'timer': '90'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 17:15:43,977 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-09-18 17:17:15,575 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA1', 'action_name': 'start', 'timer': '90'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 17:17:15,576 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-09-18 17:56:17,122 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv3",
+    "status": "start"
+}
+2024-09-18 17:56:17,123 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 17:56:18,368 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv3",
+    "status": "end"
+}
+2024-09-18 17:56:18,368 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-09-18 17:56:50,515 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv3",
+    "status": "start"
+}
+2024-09-18 17:56:50,515 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 17:56:51,717 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv3",
+    "status": "end"
+}
+2024-09-18 17:56:51,717 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-09-18 18:46:23,353 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA3', 'action_name': 'end', 'timer': '90'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 18:46:23,354 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-09-18 18:47:21,883 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA1', 'action_name': 'end', 'timer': '90'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 18:47:21,885 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-09-18 18:58:47,701 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv1",
+    "status": "start"
+}
+2024-09-18 18:58:47,701 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-18 18:59:03,857 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv1",
+    "status": "start"
+}
+2024-09-18 18:59:03,858 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-18 19:00:22,842 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.08",
+    "name": "uv1",
+    "status": "start"
+}
+2024-09-18 19:00:22,843 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-18 19:00:52,527 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv1",
+    "status": "start"
+}
+2024-09-18 19:00:52,527 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-18 19:02:08,667 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv1",
+    "status": "start"
+}
+2024-09-18 19:02:08,667 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-18 19:02:44,863 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.48",
+    "version": "3.10",
+    "name": "uv4",
+    "status": "end"
+}
+2024-09-18 19:02:44,863 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv4 -> end
+2024-09-18 19:04:32,960 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.48",
+    "version": "3.11",
+    "name": "uv4",
+    "status": "end"
+}
+2024-09-18 19:04:32,961 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv4 -> end
+2024-09-18 19:05:41,394 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:66] Content-Type không được hỗ trợ: 400
+2024-09-18 19:05:46,660 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.48",
+    "version": "3.11",
+    "name": "uv4",
+    "status": "end"
+}
+2024-09-18 19:05:46,660 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv4 -> end
+2024-09-18 19:08:01,538 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.48",
+    "version": "3.11",
+    "name": "uv4",
+    "status": "end"
+}
+2024-09-18 19:08:01,539 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv4 -> end
+2024-09-18 19:10:21,900 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:38] Start: GF-CICO
+2024-09-18 19:10:22,274 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:38] Start: GF-CICO
+2024-09-18 19:10:30,269 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.48",
+    "version": "3.11",
+    "name": "uv4",
+    "status": "end"
+}
+2024-09-18 19:10:30,270 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv4 -> end
+2024-09-18 19:13:31,937 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:38] Start: GF-CICO
+2024-09-18 19:13:38,640 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.48",
+    "version": "3.11",
+    "name": "uv4",
+    "status": "end"
+}
+2024-09-18 19:13:38,641 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv4 -> end
+2024-09-18 19:15:22,598 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:38] Start: GF-CICO
+2024-09-18 19:15:41,000 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.108",
+    "version": "3.11",
+    "name": "uv4",
+    "status": "end"
+}
+2024-09-18 19:15:41,000 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv4 -> end
+2024-09-18 19:34:50,390 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.09",
+    "name": "uv3",
+    "status": "start"
+}
+2024-09-18 19:34:50,390 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 19:40:20,757 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 19:40:20,757 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-09-18 19:40:20,936 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv3",
+    "status": "start"
+}
+2024-09-18 19:40:20,936 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 19:42:05,559 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv1",
+    "status": "start"
+}
+2024-09-18 19:42:05,559 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-18 19:42:08,360 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv1",
+    "status": "end"
+}
+2024-09-18 19:42:08,360 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-18 19:42:35,180 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv1",
+    "status": "start"
+}
+2024-09-18 19:42:35,180 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-18 19:42:35,566 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv1",
+    "status": "end"
+}
+2024-09-18 19:42:35,567 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-18 19:42:58,349 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv1",
+    "status": "start"
+}
+2024-09-18 19:42:58,349 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-18 19:43:01,562 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv1",
+    "status": "end"
+}
+2024-09-18 19:43:01,562 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-18 19:43:46,367 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv1",
+    "status": "start"
+}
+2024-09-18 19:43:46,367 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-18 19:43:46,751 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv1",
+    "status": "end"
+}
+2024-09-18 19:43:46,751 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-18 19:43:58,350 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv1",
+    "status": "start"
+}
+2024-09-18 19:43:58,350 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-18 19:43:59,162 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv1",
+    "status": "end"
+}
+2024-09-18 19:43:59,163 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-18 19:44:01,589 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv1",
+    "status": "start"
+}
+2024-09-18 19:44:01,589 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-18 19:44:01,956 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv1",
+    "status": "end"
+}
+2024-09-18 19:44:01,956 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-18 19:44:14,755 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 19:44:14,756 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-09-18 19:44:14,944 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv3",
+    "status": "start"
+}
+2024-09-18 19:44:14,944 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 19:44:51,958 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv2",
+    "status": "end"
+}
+2024-09-18 19:44:51,959 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-09-18 19:44:54,764 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 19:44:54,764 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-09-18 19:45:08,768 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv2",
+    "status": "end"
+}
+2024-09-18 19:45:08,769 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-09-18 19:45:14,775 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 19:45:14,775 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-09-18 19:45:15,578 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv3",
+    "status": "end"
+}
+2024-09-18 19:45:15,578 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-09-18 19:45:18,772 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv3",
+    "status": "start"
+}
+2024-09-18 19:45:18,772 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 19:45:19,562 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv2",
+    "status": "end"
+}
+2024-09-18 19:45:19,562 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-09-18 19:45:21,186 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 19:45:21,186 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-09-18 19:45:23,556 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv3",
+    "status": "end"
+}
+2024-09-18 19:45:23,556 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-09-18 19:45:29,178 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv3",
+    "status": "start"
+}
+2024-09-18 19:45:29,178 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 19:45:30,359 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv3",
+    "status": "end"
+}
+2024-09-18 19:45:30,360 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-09-18 19:45:31,561 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv3",
+    "status": "start"
+}
+2024-09-18 19:45:31,561 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 19:46:01,182 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 19:46:01,182 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-09-18 19:46:01,399 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv3",
+    "status": "start"
+}
+2024-09-18 19:46:01,399 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 19:55:27,717 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 19:55:27,717 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-09-18 19:55:27,908 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv3",
+    "status": "start"
+}
+2024-09-18 19:55:27,908 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 19:56:18,126 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv1",
+    "status": "start"
+}
+2024-09-18 19:56:18,126 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-18 19:56:34,122 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv1",
+    "status": "end"
+}
+2024-09-18 19:56:34,122 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-18 19:57:22,128 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv1",
+    "status": "start"
+}
+2024-09-18 19:57:22,129 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-18 19:57:24,914 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv1",
+    "status": "end"
+}
+2024-09-18 19:57:24,914 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-18 19:57:32,118 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv1",
+    "status": "start"
+}
+2024-09-18 19:57:32,118 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-18 19:57:36,536 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv1",
+    "status": "end"
+}
+2024-09-18 19:57:36,536 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-18 19:57:36,939 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv1",
+    "status": "start"
+}
+2024-09-18 19:57:36,939 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-18 19:58:08,935 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv1",
+    "status": "end"
+}
+2024-09-18 19:58:08,935 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-18 20:00:14,908 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv3",
+    "status": "end"
+}
+2024-09-18 20:00:14,908 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-09-18 20:00:22,143 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv1",
+    "status": "start"
+}
+2024-09-18 20:00:22,143 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-18 20:00:24,943 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv1",
+    "status": "end"
+}
+2024-09-18 20:00:24,943 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-18 20:00:25,158 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv3",
+    "status": "start"
+}
+2024-09-18 20:00:25,159 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 20:00:40,126 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv1",
+    "status": "start"
+}
+2024-09-18 20:00:40,126 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-18 20:00:43,722 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv2",
+    "status": "end"
+}
+2024-09-18 20:00:43,722 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-09-18 20:00:52,542 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 20:00:52,542 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-09-18 20:00:53,712 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv3",
+    "status": "end"
+}
+2024-09-18 20:00:53,712 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-09-18 20:00:55,318 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv1",
+    "status": "end"
+}
+2024-09-18 20:00:55,319 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-18 20:00:55,707 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.10",
+    "name": "uv3",
+    "status": "start"
+}
+2024-09-18 20:00:55,708 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 20:05:13,762 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.11",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 20:05:13,762 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-09-18 20:05:13,961 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.11",
+    "name": "uv3",
+    "status": "start"
+}
+2024-09-18 20:05:13,961 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 20:06:23,968 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.11",
+    "name": "uv3",
+    "status": "end"
+}
+2024-09-18 20:06:23,968 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-09-18 20:06:46,187 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.11",
+    "name": "uv3",
+    "status": "start"
+}
+2024-09-18 20:06:46,187 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106] Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 20:08:23,063 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:38] Start: GF-CICO
+2024-09-18 20:08:32,392 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.11",
+    "name": "uv3",
+    "status": "end"
+}
+2024-09-18 20:08:32,392 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-09-18 20:08:42,618 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.11",
+    "name": "uv3",
+    "status": "start"
+}
+2024-09-18 20:08:42,619 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 20:10:09,059 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:38] Start: GF-CICO
+2024-09-18 20:10:13,777 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.11",
+    "name": "uv3",
+    "status": "end"
+}
+2024-09-18 20:10:13,778 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-09-18 20:10:28,167 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.11",
+    "name": "uv3",
+    "status": "start"
+}
+2024-09-18 20:10:28,167 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 20:11:04,280 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:38] Start: GF-CICO
+2024-09-18 20:11:08,374 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.11",
+    "name": "uv3",
+    "status": "end"
+}
+2024-09-18 20:11:08,374 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-09-18 20:11:13,782 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.11",
+    "name": "uv3",
+    "status": "start"
+}
+2024-09-18 20:11:13,782 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 20:19:56,479 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:39] Start: GF-CICO
+2024-09-18 20:20:07,794 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.11",
+    "name": "uv3",
+    "status": "end"
+}
+2024-09-18 20:20:07,795 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-09-18 20:21:10,701 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.11",
+    "name": "uv3",
+    "status": "end"
+}
+2024-09-18 20:21:10,702 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-09-18 20:22:23,988 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.11",
+    "name": "uv3",
+    "status": "start"
+}
+2024-09-18 20:22:23,989 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 20:31:22,512 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:39] Start: GF-CICO
+2024-09-18 20:31:29,401 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.11",
+    "name": "uv3",
+    "status": "end"
+}
+2024-09-18 20:31:29,401 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-09-18 20:31:33,595 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.11",
+    "name": "uv3",
+    "status": "start"
+}
+2024-09-18 20:31:33,595 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 20:31:36,598 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.11",
+    "name": "uv3",
+    "status": "end"
+}
+2024-09-18 20:31:36,599 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-09-18 20:31:37,797 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.11",
+    "name": "uv3",
+    "status": "start"
+}
+2024-09-18 20:31:37,797 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 20:31:39,606 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.11",
+    "name": "uv3",
+    "status": "end"
+}
+2024-09-18 20:31:39,606 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-09-18 20:31:54,046 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.11",
+    "name": "uv2",
+    "status": "end"
+}
+2024-09-18 20:31:54,046 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-09-18 20:31:55,210 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.11",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 20:31:55,210 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-09-18 20:32:04,795 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.11",
+    "name": "uv2",
+    "status": "end"
+}
+2024-09-18 20:32:04,796 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-09-18 20:32:05,997 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.11",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 20:32:05,997 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-09-18 20:34:38,363 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:39] Start: GF-CICO
+2024-09-18 20:34:48,023 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.11",
+    "name": "uv3",
+    "status": "end"
+}
+2024-09-18 20:34:48,023 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-09-18 20:34:49,813 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.11",
+    "name": "uv3",
+    "status": "start"
+}
+2024-09-18 20:34:49,814 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 20:35:21,012 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.11",
+    "name": "uv2",
+    "status": "end"
+}
+2024-09-18 20:35:21,012 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-09-18 20:35:22,212 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.11",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 20:35:22,212 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-09-18 20:36:17,424 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.11",
+    "name": "uv3",
+    "status": "end"
+}
+2024-09-18 20:36:17,424 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-09-18 20:36:19,216 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.11",
+    "name": "uv3",
+    "status": "start"
+}
+2024-09-18 20:36:19,217 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 20:43:11,463 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:39] Start: GF-CICO
+2024-09-18 20:43:25,223 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.11",
+    "name": "uv3",
+    "status": "end"
+}
+2024-09-18 20:43:25,223 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-09-18 20:43:27,053 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.11",
+    "name": "uv3",
+    "status": "start"
+}
+2024-09-18 20:43:27,053 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 20:43:32,422 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv3
+2024-09-18 20:43:39,063 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv3
+2024-09-18 20:43:51,021 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.11",
+    "name": "uv2",
+    "status": "end"
+}
+2024-09-18 20:43:51,022 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-09-18 20:43:52,228 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.11",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 20:43:52,228 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-09-18 20:43:54,029 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv3
+2024-09-18 20:43:57,652 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv3
+2024-09-18 20:44:00,625 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv2
+2024-09-18 20:44:02,427 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv2
+2024-09-18 20:59:55,723 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 20:59:55,723 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-09-18 20:59:55,798 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv3",
+    "status": "start"
+}
+2024-09-18 20:59:55,798 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 21:00:03,188 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv3",
+    "status": "end"
+}
+2024-09-18 21:00:03,188 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-09-18 21:00:07,384 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv3
+2024-09-18 21:00:17,079 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 21:00:17,079 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-09-18 21:00:17,312 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv3
+2024-09-18 21:00:27,009 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv2
+2024-09-18 21:00:36,720 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv2
+2024-09-18 21:08:57,229 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.11",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 21:08:57,229 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-09-18 21:08:57,481 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.11",
+    "name": "uv3",
+    "status": "start"
+}
+2024-09-18 21:08:57,482 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 21:12:25,257 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 21:12:25,258 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-09-18 21:12:26,570 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv3",
+    "status": "start"
+}
+2024-09-18 21:12:26,571 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 21:12:35,440 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv3",
+    "status": "end"
+}
+2024-09-18 21:12:35,441 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-09-18 21:12:37,252 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv3
+2024-09-18 21:12:46,842 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv3
+2024-09-18 21:13:17,573 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv1",
+    "status": "end"
+}
+2024-09-18 21:13:17,574 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-18 21:13:17,623 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 21:13:17,624 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-09-18 21:13:18,890 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv3
+2024-09-18 21:13:19,080 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv4",
+    "status": "end"
+}
+2024-09-18 21:13:19,081 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv4 -> end
+2024-09-18 21:13:57,544 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv3",
+    "status": "start"
+}
+2024-09-18 21:13:57,544 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 21:14:04,124 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv2",
+    "status": "end"
+}
+2024-09-18 21:14:04,124 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-09-18 21:14:11,936 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 21:14:11,936 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-09-18 21:14:58,767 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv1",
+    "status": "start"
+}
+2024-09-18 21:14:58,767 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-18 21:15:04,745 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv1",
+    "status": "end"
+}
+2024-09-18 21:15:04,745 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-18 21:15:53,339 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-18 21:16:29,373 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 21:16:29,373 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-09-18 21:16:29,604 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv3",
+    "status": "start"
+}
+2024-09-18 21:16:29,604 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 21:16:29,698 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv4",
+    "status": "end"
+}
+2024-09-18 21:16:29,698 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv4 -> end
+2024-09-18 21:16:31,300 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv1",
+    "status": "start"
+}
+2024-09-18 21:16:31,300 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-18 21:17:48,950 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv1",
+    "status": "end"
+}
+2024-09-18 21:17:48,950 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-18 21:22:12,347 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv3",
+    "status": "end"
+}
+2024-09-18 21:22:12,347 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-09-18 21:22:15,986 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv3",
+    "status": "start"
+}
+2024-09-18 21:22:15,987 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 21:22:17,749 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv3
+2024-09-18 21:22:48,470 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv1",
+    "status": "end"
+}
+2024-09-18 21:22:48,471 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-18 21:22:48,512 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 21:22:48,512 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-09-18 21:22:48,695 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv3
+2024-09-18 21:22:48,870 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv4",
+    "status": "end"
+}
+2024-09-18 21:22:48,870 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv4 -> end
+2024-09-18 21:23:29,724 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv3",
+    "status": "start"
+}
+2024-09-18 21:23:29,724 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 21:23:49,013 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA1', 'action_name': 'start', 'timer': '90'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 21:23:49,014 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-09-18 21:23:54,068 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA4', 'action_name': 'start', 'timer': '29'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 21:23:54,069 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-09-18 21:23:59,501 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA2', 'action_name': 'start', 'timer': '59'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 21:23:59,501 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-09-18 21:24:04,830 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA3', 'action_name': 'start', 'timer': '90'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 21:24:04,831 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-09-18 21:25:52,604 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv1",
+    "status": "start"
+}
+2024-09-18 21:25:52,604 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-18 21:26:35,094 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:39] Start: GF-CICO
+2024-09-18 21:26:53,764 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv3",
+    "status": "end"
+}
+2024-09-18 21:26:53,765 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-09-18 21:27:06,326 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv3",
+    "status": "start"
+}
+2024-09-18 21:27:06,327 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 21:27:13,521 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv3",
+    "status": "end"
+}
+2024-09-18 21:27:13,521 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-09-18 21:27:18,327 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv3
+2024-09-18 21:27:49,046 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv1",
+    "status": "start"
+}
+2024-09-18 21:27:49,046 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-18 21:27:49,095 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 21:27:49,095 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-09-18 21:27:49,327 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv3
+2024-09-18 21:27:49,534 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv4",
+    "status": "end"
+}
+2024-09-18 21:27:49,535 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv4 -> end
+2024-09-18 21:30:00,955 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv1",
+    "status": "start"
+}
+2024-09-18 21:30:00,955 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-18 21:30:01,226 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 21:30:01,226 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-09-18 21:30:01,312 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv3",
+    "status": "start"
+}
+2024-09-18 21:30:01,312 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 21:30:27,951 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv3",
+    "status": "end"
+}
+2024-09-18 21:30:27,952 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-09-18 21:30:32,127 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv3",
+    "status": "start"
+}
+2024-09-18 21:30:32,128 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 21:30:36,330 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv3
+2024-09-18 21:30:44,731 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv3
+2024-09-18 21:31:45,446 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv1",
+    "status": "start"
+}
+2024-09-18 21:31:45,447 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-18 21:31:45,494 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 21:31:45,494 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-09-18 21:31:45,680 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv3",
+    "status": "start"
+}
+2024-09-18 21:31:45,681 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 21:31:45,752 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv4",
+    "status": "end"
+}
+2024-09-18 21:31:45,752 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv4 -> end
+2024-09-18 21:33:15,650 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:39] Start: GF-CICO
+2024-09-18 21:33:23,622 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv3",
+    "status": "end"
+}
+2024-09-18 21:33:23,622 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-09-18 21:33:26,009 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv3",
+    "status": "start"
+}
+2024-09-18 21:33:26,009 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 21:33:32,009 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv3",
+    "status": "end"
+}
+2024-09-18 21:33:32,009 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-09-18 21:33:34,409 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv3
+2024-09-18 21:34:35,130 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv1",
+    "status": "start"
+}
+2024-09-18 21:34:35,130 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-18 21:34:35,199 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv2",
+    "status": "start"
+}
+2024-09-18 21:34:35,199 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-09-18 21:34:35,450 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv3",
+    "status": "start"
+}
+2024-09-18 21:34:35,451 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 21:34:35,534 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv4",
+    "status": "end"
+}
+2024-09-18 21:34:35,535 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv4 -> end
+2024-09-18 21:35:42,203 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:44] Dữ liệu:
+ {
+    "idchip": "181134ab4c24",
+    "ip": "10.16.40.38",
+    "version": "3.12",
+    "name": "uv1",
+    "status": "end"
+}
+2024-09-18 21:35:42,204 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-18 21:38:18,575 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:39] Start: GF-CICO
+2024-09-18 21:41:46,864 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv4 -> end
+2024-09-18 21:41:47,660 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv4 -> end
+2024-09-18 21:41:48,436 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv4 -> end
+2024-09-18 21:41:49,375 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv4
+2024-09-18 21:44:44,621 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-18 21:44:45,303 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-18 21:44:45,845 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-18 21:44:46,540 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-18 21:45:47,138 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-18 21:45:47,192 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-09-18 21:45:48,500 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 21:45:48,613 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv4 -> end
+2024-09-18 21:46:16,587 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-18 21:46:17,519 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-18 21:46:30,161 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-18 21:47:03,100 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-18 21:47:04,291 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-18 21:47:06,098 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-09-18 21:47:06,695 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-18 21:47:07,395 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-18 21:47:08,498 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-18 21:47:09,180 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-18 21:47:13,713 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv1
+2024-09-18 21:48:14,036 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-18 21:48:14,098 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-09-18 21:48:14,310 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 21:48:14,384 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv4 -> end
+2024-09-18 21:49:04,182 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-09-18 21:49:05,405 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-09-18 21:49:05,459 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-09-18 21:50:19,417 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA4', 'action_name': 'end', 'timer': '29'}
+ Mã trạng thái HTTP server: 200
+ Phản hồi từ server: 200
+2024-09-18 21:50:19,418 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-09-18 21:57:45,058 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:39] Start: GF-CICO
+2024-09-18 22:19:44,882 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA2', 'action_name': 'end', 'timer': '59'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-09-18 22:19:44,883 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-09-18 22:49:57,155 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA1', 'action_name': 'end', 'timer': '90'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-09-18 22:49:57,156 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-09-18 22:50:27,451 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA3', 'action_name': 'end', 'timer': '90'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-09-18 22:50:27,452 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-09-18 23:23:32,444 - INFO - [in app.py:39] Start: GF-CICO
+2024-09-18 23:23:32,846 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:39] Start: GF-CICO
+2024-09-18 23:27:14,038 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv4 -> end
+2024-09-18 23:27:49,196 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv4 -> end
+2024-09-18 23:27:49,659 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv4 -> end
+2024-09-18 23:27:50,029 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:100]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv4

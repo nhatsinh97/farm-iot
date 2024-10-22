@@ -1,0 +1,404 @@
+2024-10-05 00:12:33,576 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:47] Start: GF-CICO
+2024-10-05 00:17:39,458 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:47] Start: GF-CICO
+2024-10-05 00:58:11,612 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:47] Start: GF-CICO
+2024-10-05 01:31:22,959 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:48] Start: GF-CICO
+2024-10-05 01:34:09,059 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:48] Start: GF-CICO
+2024-10-05 01:35:32,635 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:48] Start: GF-CICO
+2024-10-05 01:44:03,743 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:48] Start: GF-CICO
+2024-10-05 01:47:11,012 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:48] Start: GF-CICO
+2024-10-05 01:48:09,906 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:48] Start: GF-CICO
+2024-10-05 01:58:05,459 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:49] Start: GF-CICO
+2024-10-05 02:02:43,228 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:49] Start: GF-CICO
+2024-10-05 02:07:18,144 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:49] Start: GF-CICO
+2024-10-05 02:14:07,333 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:49] Start: GF-CICO
+2024-10-05 02:19:11,344 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:49] Start: GF-CICO
+2024-10-05 02:26:54,952 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:49] Start: GF-CICO
+2024-10-05 02:27:34,930 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:49] Start: GF-CICO
+2024-10-05 02:35:21,814 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:49] Start: GF-CICO
+2024-10-05 02:40:01,551 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:49] Start: GF-CICO
+2024-10-05 02:41:34,856 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:49] Start: GF-CICO
+2024-10-05 02:45:05,162 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:49] Start: GF-CICO
+2024-10-05 02:45:58,418 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:49] Start: GF-CICO
+2024-10-05 02:47:53,629 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:49] Start: GF-CICO
+2024-10-05 02:48:29,910 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:49] Start: GF-CICO
+2024-10-05 02:53:11,971 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:49] Start: GF-CICO
+2024-10-05 02:53:39,530 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:49] Start: GF-CICO
+2024-10-05 02:55:52,655 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:49] Start: GF-CICO
+2024-10-05 02:56:30,337 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:49] Start: GF-CICO
+2024-10-05 02:59:16,630 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:49] Start: GF-CICO
+2024-10-05 02:59:36,428 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:49] Start: GF-CICO
+2024-10-05 06:16:33,651 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-10-05 07:52:43,465 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-10-05 07:57:33,564 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-10-05 07:57:34,353 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-10-05 07:57:49,382 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-10-05 07:57:50,879 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:505]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv2
+2024-10-05 07:58:51,384 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-10-05 07:58:51,487 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-10-05 07:58:51,704 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-10-05 07:58:51,808 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv4 -> end
+2024-10-05 07:59:41,426 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-10-05 07:59:42,800 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-10-05 08:06:47,056 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-10-05 08:06:51,402 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-10-05 08:07:03,317 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-10-05 08:07:06,369 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:505]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv2
+2024-10-05 08:08:07,305 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-10-05 08:08:07,417 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-10-05 08:08:07,520 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-10-05 08:08:07,761 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv4 -> end
+2024-10-05 08:08:44,753 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-10-05 08:08:46,187 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-10-05 08:10:15,418 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-10-05 08:34:50,298 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-10-05 08:49:16,882 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-10-05 09:19:27,932 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-10-05 09:45:24,192 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-10-05 09:45:47,655 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-10-05 09:47:09,740 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-10-05 09:48:19,562 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-10-05 09:48:21,065 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-10-05 09:48:21,854 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-10-05 09:48:31,048 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:505]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv2
+2024-10-05 09:48:31,869 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:505]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv2
+2024-10-05 09:48:47,004 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:505]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv2
+2024-10-05 09:48:54,238 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:505]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv2
+2024-10-05 09:48:56,648 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:505]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv2
+2024-10-05 09:48:58,776 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:505]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv2
+2024-10-05 09:49:11,327 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:505]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv2
+2024-10-05 09:49:31,120 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-10-05 09:49:41,529 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-10-05 09:49:51,469 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-10-05 09:50:11,998 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-10-05 09:50:12,087 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:505]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv2
+2024-10-05 09:50:12,315 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-10-05 09:50:12,388 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv4 -> end
+2024-10-05 10:00:56,525 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-10-05 10:00:58,736 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-10-05 10:01:27,517 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-10-05 10:01:32,207 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:505]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv2
+2024-10-05 10:01:35,611 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-10-05 10:01:36,012 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-10-05 10:01:38,816 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-10-05 10:42:41,063 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 9838eee342a8 -> uv1 -> start
+2024-10-05 10:44:44,110 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 9838eee342a8 -> uv1 -> start
+2024-10-05 10:44:44,300 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 9838eee342a8 -> uv3 -> start
+2024-10-05 10:45:24,949 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 9838eee342a8 -> uv1 -> start
+2024-10-05 10:45:25,045 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 9838eee342a8 -> uv3 -> start
+2024-10-05 10:45:26,440 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 9838eee342a8 -> uv4 -> start
+2024-10-05 10:45:58,985 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 9838eee342a8 -> uv4 -> end
+2024-10-05 10:45:59,582 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 9838eee342a8 -> uv4 -> start
+2024-10-05 10:46:21,175 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:505]  
+ Quá nhiều yêu cầu từ thiết bị: 9838eee342a8_uv4
+2024-10-05 10:46:37,261 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 9838eee342a8 -> uv1 -> start
+2024-10-05 10:46:37,468 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 9838eee342a8 -> uv3 -> start
+2024-10-05 10:46:41,242 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 9838eee342a8 -> uv4 -> start
+2024-10-05 10:55:30,060 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 9838eee342a8 -> uv3 -> end
+2024-10-05 10:55:35,474 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 9838eee342a8 -> uv4 -> end
+2024-10-05 10:58:18,739 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA1', 'action_name': 'start', 'timer': '87'}
+ Mã trạng thái HTTP server: 202, Phản hồi từ server: 202
+2024-10-05 10:58:18,739 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:101] Yêu cầu không thành công hoặc phản hồi từ server không hợp lệ: 202
+2024-10-05 11:00:15,044 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA1', 'action_name': 'end', 'timer': '87'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-10-05 11:00:15,045 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-10-05 11:01:28,825 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA1', 'action_name': 'end', 'timer': '87'}
+ Mã trạng thái HTTP server: 201, Phản hồi từ server: 201
+2024-10-05 11:01:28,826 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:101] Yêu cầu không thành công hoặc phản hồi từ server không hợp lệ: 201
+2024-10-05 11:01:39,382 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA1', 'action_name': 'start', 'timer': '87'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-10-05 11:01:39,383 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-10-05 11:13:11,490 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 9838eee342a8 -> uv1 -> end
+2024-10-05 11:54:30,672 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 9838eee342a8 -> uv1 -> start
+2024-10-05 12:23:53,418 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:50] Start: GF-CICO
+2024-10-05 12:24:24,160 - INFO - [in app.py:50] Start: GF-CICO
+2024-10-05 12:24:54,938 - INFO - [in app.py:50] Start: GF-CICO
+2024-10-05 12:25:25,682 - INFO - [in app.py:50] Start: GF-CICO
+2024-10-05 12:25:40,196 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:50] Start: GF-CICO
+2024-10-05 12:28:02,610 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:50] Start: GF-CICO
+2024-10-05 12:28:03,065 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:50] Start: GF-CICO
+2024-10-05 12:29:18,192 - INFO - [in app.py:50] Start: GF-CICO
+2024-10-05 12:29:18,653 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:50] Start: GF-CICO
+2024-10-05 12:30:09,881 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:50] Start: GF-CICO
+2024-10-05 12:32:39,066 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA1', 'action_name': 'end', 'timer': '87'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-10-05 12:32:39,067 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-10-05 12:34:26,132 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:50] Start: GF-CICO
+2024-10-05 12:36:16,229 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:50] Start: GF-CICO
+2024-10-05 12:37:35,299 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:50] Start: GF-CICO
+2024-10-05 12:39:28,075 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:50] Start: GF-CICO
+2024-10-05 12:43:13,250 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:50] Start: GF-CICO
+2024-10-05 12:44:34,060 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:50] Start: GF-CICO
+2024-10-05 12:52:01,439 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:50] Start: GF-CICO
+2024-10-05 12:56:04,488 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:50] Start: GF-CICO
+2024-10-05 13:00:50,917 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:50] Start: GF-CICO
+2024-10-05 13:27:32,084 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:50] Start: GF-CICO
+2024-10-05 13:33:25,116 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:50] Start: GF-CICO
+2024-10-05 13:36:27,119 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:51] Start: GF-CICO
+2024-10-05 14:34:26,375 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA4', 'action_name': 'start', 'timer': '26'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-10-05 14:34:26,376 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 181134ab4c24
+2024-10-05 14:34:31,030 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA2', 'action_name': 'start', 'timer': '57'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-10-05 14:34:31,032 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 181134ab4c24
+2024-10-05 14:34:35,784 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA3', 'action_name': 'start', 'timer': '86'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-10-05 14:34:35,786 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 181134ab4c24
+2024-10-05 14:44:18,170 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA4', 'action_name': 'start', 'timer': '26'}
+ Mã trạng thái HTTP server: 202, Phản hồi từ server: 202
+2024-10-05 14:44:18,171 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:101] Yêu cầu không thành công hoặc phản hồi từ server không hợp lệ: 202
+2024-10-05 14:44:20,198 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA2', 'action_name': 'start', 'timer': '57'}
+ Mã trạng thái HTTP server: 202, Phản hồi từ server: 202
+2024-10-05 14:44:20,200 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:101] Yêu cầu không thành công hoặc phản hồi từ server không hợp lệ: 202
+2024-10-05 14:46:13,149 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA1', 'action_name': 'start', 'timer': '86'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-10-05 14:46:13,150 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 181134ab4c24
+2024-10-05 14:46:17,784 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA2', 'action_name': 'end', 'timer': '57'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-10-05 14:46:17,785 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 181134ab4c24
+2024-10-05 14:46:22,654 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA4', 'action_name': 'end', 'timer': '26'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-10-05 14:46:22,655 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 181134ab4c24
+2024-10-05 14:46:49,814 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA1', 'action_name': 'end', 'timer': '86'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-10-05 14:46:49,815 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 181134ab4c24
+2024-10-05 14:47:34,996 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA1', 'action_name': 'start', 'timer': '86'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-10-05 14:47:34,997 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 181134ab4c24
+2024-10-05 14:48:18,905 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA2', 'action_name': 'start', 'timer': '57'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-10-05 14:48:18,906 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 181134ab4c24
+2024-10-05 14:48:20,956 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA2', 'action_name': 'end', 'timer': '57'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-10-05 14:48:20,956 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 181134ab4c24
+2024-10-05 14:48:26,135 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA2', 'action_name': 'start', 'timer': '57'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-10-05 14:48:26,136 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 181134ab4c24
+2024-10-05 14:48:28,243 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA1', 'action_name': 'end', 'timer': '86'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-10-05 14:48:28,244 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 181134ab4c24
+2024-10-05 14:56:11,885 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA3', 'action_name': 'end', 'timer': '86'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-10-05 14:56:11,886 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 181134ab4c241
+2024-10-05 14:56:49,541 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA2', 'action_name': 'end', 'timer': '57'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-10-05 14:56:49,542 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 181134ab4c241
+2024-10-05 15:05:00,661 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-10-05 15:05:07,053 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-10-05 15:17:53,634 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 9838eee342a8 -> uv1 -> start
+2024-10-05 15:48:32,606 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 9838eee342a8 -> uv1 -> end
+2024-10-05 16:24:17,713 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-10-05 16:45:10,645 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA1', 'action_name': 'start', 'timer': '87'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-10-05 16:45:10,647 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-10-05 17:26:56,487 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-10-05 17:27:31,532 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA1', 'action_name': 'end', 'timer': '87'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-10-05 17:27:31,533 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-10-05 17:27:55,098 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-10-05 17:27:55,236 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-10-05 17:40:02,021 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-10-05 17:40:49,817 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA1', 'action_name': 'start', 'timer': '87'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-10-05 17:40:49,818 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-10-05 18:27:20,892 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-10-05 18:31:22,974 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-10-05 18:32:19,344 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> start
+2024-10-05 18:32:19,532 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-10-05 18:32:19,743 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> start
+2024-10-05 18:34:54,121 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA1', 'action_name': 'start', 'timer': '87'}
+ Mã trạng thái HTTP server: 202, Phản hồi từ server: 202
+2024-10-05 18:34:54,122 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:101] Yêu cầu không thành công hoặc phản hồi từ server không hợp lệ: 202
+2024-10-05 18:57:40,181 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA1', 'action_name': 'end', 'timer': '87'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-10-05 18:57:40,182 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:96] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-10-05 19:31:20,648 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-10-05 19:46:38,626 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:51] Start: GF-CICO
+2024-10-05 20:02:03,184 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
+2024-10-05 20:02:14,147 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv1 -> end
+2024-10-05 20:11:31,306 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:51] Start: GF-CICO
+2024-10-05 20:20:30,870 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:51] Start: GF-CICO
+2024-10-05 20:36:57,786 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:51] Start: GF-CICO
+2024-10-05 20:42:29,267 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:51] Start: GF-CICO
+2024-10-05 20:48:55,525 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:51] Start: GF-CICO
+2024-10-05 20:49:10,902 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:713] Lỗi khi lấy request history: Expecting value: line 1 column 1 (char 0)
+2024-10-05 20:57:59,260 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:51] Start: GF-CICO
+2024-10-05 20:58:01,285 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:556] Lỗi phân tích JSON: Expecting value: line 1 column 1 (char 0)
+2024-10-05 20:58:05,439 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:556] Lỗi phân tích JSON: Expecting value: line 1 column 1 (char 0)
+2024-10-05 20:58:57,097 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:51] Start: GF-CICO
+2024-10-05 20:58:59,278 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-10-05 20:59:41,376 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:51] Start: GF-CICO
+2024-10-05 21:00:07,717 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:51] Start: GF-CICO
+2024-10-05 21:02:54,985 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:51] Start: GF-CICO
+2024-10-05 21:03:51,728 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:51] Start: GF-CICO
+2024-10-05 21:03:54,850 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:484] 181134ab4c24
+2024-10-05 21:06:04,272 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:484] 181134ab4c24
+2024-10-05 21:06:04,274 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-10-05 21:06:39,194 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:484] 181134ab4c24
+2024-10-05 21:06:39,196 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-10-05 21:06:42,042 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:484] 181134ab4c24
+2024-10-05 21:06:42,043 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-10-05 21:06:50,925 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:543]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv3
+2024-10-05 21:06:52,460 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:543]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv3
+2024-10-05 21:06:53,941 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:543]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv3
+2024-10-05 21:06:55,196 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:543]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv3
+2024-10-05 21:06:56,111 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:543]  
+ Quá nhiều yêu cầu từ thiết bị: 181134ab4c24_uv3
+2024-10-05 21:07:42,274 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:484] 181134ab4c24
+2024-10-05 21:07:42,276 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-10-05 21:08:12,752 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:484] 181134ab4c241
+2024-10-05 21:08:12,754 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:109] Dữ liệu không trùng khớp hoặc không tìm thấy.
+2024-10-05 21:08:27,188 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:484] 181134ab4c24
+2024-10-05 21:08:27,189 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv3 -> end
+2024-10-05 21:25:02,717 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:484] 9838eee342a8
+2024-10-05 21:25:06,335 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA1', 'action_name': 'end', 'timer': '87'}
+ Mã trạng thái HTTP server: 201, Phản hồi từ server: 201
+2024-10-05 21:25:06,336 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:101] Yêu cầu không thành công hoặc phản hồi từ server không hợp lệ: 201
+2024-10-05 21:29:16,953 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:484] 9838eee342a8
+2024-10-05 21:29:19,223 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA1', 'action_name': 'end', 'timer': '87'}
+ Mã trạng thái HTTP server: 201, Phản hồi từ server: 201
+2024-10-05 21:29:19,223 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:101] Yêu cầu không thành công hoặc phản hồi từ server không hợp lệ: 201
+2024-10-05 22:28:02,221 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:484] 181134ab4c24
+2024-10-05 22:28:02,224 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> start
+2024-10-05 23:05:15,829 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:51] Start: GF-CICO
+2024-10-05 23:22:25,148 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:484] 9838eee342a8
+2024-10-05 23:22:28,747 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA1', 'action_name': 'end', 'timer': '87'}
+ Mã trạng thái HTTP server: 201, Phản hồi từ server: 201
+2024-10-05 23:22:28,748 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:101] Yêu cầu không thành công hoặc phản hồi từ server không hợp lệ: 201
+2024-10-05 23:23:14,440 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:484] 9838eee342a8
+2024-10-05 23:23:16,702 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA1', 'action_name': 'end', 'timer': '87'}
+ Mã trạng thái HTTP server: 201, Phản hồi từ server: 201
+2024-10-05 23:23:16,704 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:101] Yêu cầu không thành công hoặc phản hồi từ server không hợp lệ: 201
+2024-10-05 23:23:31,548 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:484] 9838eee342a8
+2024-10-05 23:23:33,825 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:84] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA1', 'action_name': 'end', 'timer': '87'}
+ Mã trạng thái HTTP server: 201, Phản hồi từ server: 201
+2024-10-05 23:23:33,825 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:101] Yêu cầu không thành công hoặc phản hồi từ server không hợp lệ: 201
+2024-10-05 23:58:42,200 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:484] 181134ab4c24
+2024-10-05 23:58:42,203 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:106]  
+ Không tìm thấy thông tin cho ID: 181134ab4c24 -> uv2 -> end
