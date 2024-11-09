@@ -9,6 +9,7 @@ import json
 import time
 import logging
 import data_processor
+import paho.mqtt.client as mqtt
 from config import Config
 from application.controllers.main_controller import main
 from logging import Formatter, StreamHandler
@@ -19,8 +20,102 @@ from werkzeug.utils import secure_filename  # Thêm dòng này để xử lý t�
 from flask import jsonify
 import os
 from datetime import datetime, timedelta
-
 from influxdb import InfluxDBClient
+
+# Thông tin MQTT
+BROKER_ADDRESS = "172.17.128.24"
+PORT = 1883
+TOPIC = "PLC/LOGO"
+# Biến lưu trữ giá trị trước đó của P1 và P2
+previous_P1_value = None
+previous_P2_value = None
+
+# Tạo một hàng đợi để truyền dữ liệu giữa các luồng
+data_queue = queue.Queue()
+
+# Hàm callback khi kết nối thành công
+def on_connect(client, userdata, flags, rc):
+    if rc == 0:
+        # print("Kết nối đến MQTT broker thành công")
+        client.subscribe(TOPIC)
+    else:
+        print(f"Lỗi kết nối với mã: {rc}")
+# Hàm callback khi nhận được tin nhắn từ MQTT
+def on_message(client, userdata, message):
+    global previous_P1_value, previous_P2_value
+    try:
+        # Chuyển dữ liệu JSON từ chuỗi thành từ điển Python
+        data = json.loads(message.payload.decode())
+        
+        # Trích xuất các giá trị từ dữ liệu
+        reported = data.get("state", {}).get("reported", {})
+        
+        P1_desc = reported.get("P1", {}).get("desc", "N/A")
+        P1_value = reported.get("P1", {}).get("value", [])[0] if reported.get("P1", {}).get("value") else None
+        
+        P2_desc = reported.get("P2", {}).get("desc", "N/A")
+        P2_value = reported.get("P2", {}).get("value", [])[0] if reported.get("P2", {}).get("value") else None
+
+        logotime = reported.get("$logotime", "N/A")
+        
+        # Kiểm tra sự thay đổi giá trị P1 và đưa vào hàng đợi nếu có thay đổi
+        if P1_value is not None and P1_value != previous_P1_value:
+            status = "start" if P1_value == 1 and previous_P1_value == 0 else "end"
+            print(f"Giá trị của P1 đã thay đổi từ {previous_P1_value} thành {P1_value} với status: {status}")
+            # Thêm sự kiện thay đổi vào hàng đợi logger.critical
+            data_queue.put({
+                "idchip": "9838eee342a8",
+                "ip": "10.16.40.38",
+                "version": "3.11",
+                "name": "uv3",
+                "status": status
+            })
+            previous_P1_value = P1_value  # Cập nhật giá trị mới vào biến lưu trữ
+
+        # Kiểm tra sự thay đổi giá trị P2 và cập nhật status theo điều kiện
+        if P2_value is not None and P2_value != previous_P2_value:
+            status = "start" if P2_value == 1 and previous_P2_value == 0 else "end"
+            print(f"Giá trị của P2 đã thay đổi từ {previous_P2_value} thành {P2_value} với status: {status}")
+            # Thêm sự kiện thay đổi vào hàng đợi với status phù hợp logger.critical
+            data_queue.put({
+                "idchip": "9838eee342a8",
+                "ip": "10.16.40.38",
+                "version": "3.11",
+                "name": "uv4",
+                "status": status
+            })
+            previous_P2_value = P2_value  # Cập nhật giá trị mới vào biến lưu trữ
+
+        # In ra dữ liệu để kiểm tra
+        # print(f"P1 - {P1_desc}: {P1_value}")
+        # print(f"P2 - {P2_desc}: {P2_value}")
+        # print(f"Logotime: {logotime}")
+        # print("-" * 30)
+        
+    except json.JSONDecodeError:
+        print("Lỗi giải mã JSON.")
+# Khởi tạo MQTT client bên ngoài hàm
+mqtt_client = mqtt.Client("Server_app")
+mqtt_client.on_connect = on_connect
+mqtt_client.on_message = on_message
+
+# Hàm khởi động vòng lặp MQTT trong một luồng riêng
+def start_mqtt_loop():
+    try:
+        print("Đang kết nối đến MQTT broker...")
+        mqtt_client.connect(BROKER_ADDRESS, PORT)
+        mqtt_client.loop_forever()  # Sử dụng loop_forever để giữ kết nối liên tục
+    except Exception as e:
+        print(f"MQTT Loop Error: {e}")
+        time.sleep(5)  # Chờ một chút trước khi thử lại kết nối
+
+# Khởi động MQTT client trong một luồng riêng biệt
+mqtt_thread = Thread(target=start_mqtt_loop)
+mqtt_thread.daemon = True
+mqtt_thread.start()
+
+
+
 # Tạo logger
 logger = logging.getLogger('cico_log')
 logger.setLevel(logging.DEBUG)
@@ -63,8 +158,7 @@ client.switch_database(database)
 
 
 
-# Tạo một hàng đợi để truyền dữ liệu giữa các luồng
-data_queue = queue.Queue()
+
 
 
 
@@ -907,7 +1001,7 @@ def uv_data(data):
     image_path = save_image(data['img'], data['mac_address'], data['action_name'])
     # Cập nhật ticket vào InfluxDB
     data['img'] = image_path  # Thay thế base64 bằng đường dẫn ảnh
-    update_ticket_in_db(data)  # Cập nhật ticket
+    # update_ticket_in_db(data)  # Cập nhật ticket
     return
 def generate_ticket_id():
     # Tạo ra một ID duy nhất bằng cách sử dụng UUID4
@@ -966,7 +1060,7 @@ def process_start(mac_address, timer, img):
     start_time = datetime.utcnow().isoformat() + 'Z'  # Thời gian bắt đầu
     # Giải mã Base64 hình ảnh
     decoded_img = base64.b64decode(img)
-    save_image(decoded_img, f"{mac_address}_start_{start_time}.jpg")
+    # save_image(decoded_img, f"{mac_address}_start_{start_time}.jpg")
     
     # Tạo phiếu mới
     ticket = {
@@ -978,12 +1072,12 @@ def process_start(mac_address, timer, img):
         "status": "in_progress"
     }
     # Lưu phiếu vào cơ sở dữ liệu (InfluxDB hoặc MongoDB tùy chọn)
-    save_ticket_to_db(ticket)
+    # save_ticket_to_db(ticket)
 
 def process_end(mac_address, img):
     end_time = datetime.utcnow().isoformat() + 'Z'
     decoded_img = base64.b64decode(img)
-    save_image(decoded_img, f"{mac_address}_end_{end_time}.jpg")
+    # save_image(decoded_img, f"{mac_address}_end_{end_time}.jpg")
     
     # Tìm phiếu đang hoạt động theo mac_address
     ticket = find_in_progress_ticket(mac_address)
@@ -992,7 +1086,7 @@ def process_end(mac_address, img):
         ticket['end_img'] = f"{mac_address}_end_{end_time}.jpg"
         ticket['status'] = 'completed'
         # Cập nhật phiếu
-        update_ticket_in_db(ticket)
+        # update_ticket_in_db(ticket)
     else:
         raise Exception("Không tìm thấy phiếu đang hoạt động.")
 def update_ticket_in_db(data):
@@ -1120,29 +1214,24 @@ if __name__ == '__main__':
         device_check_thread = Thread(target=check_device_status_periodically)
         device_check_thread.daemon = True
         device_check_thread.start()
-        # Tạo và khởi động luồng để lấy frame từ RTSP
-        capture_thread = Thread(target=capture_frame)
-        capture_thread.daemon = True
-        capture_thread.start()
+
         # Tạo và khởi động luồng để xử lý dữ liệu từ hàng đợi
         processing_thread = Thread(target=process_data_from_queue)
-        # processing_thread = threading.Thread(target=process_data_from_queue)
         processing_thread.daemon = True
         processing_thread.start()
-        # Chạy FFmpeg trước khi khởi động Flask
-        # Khởi động FFmpeg để bắt đầu stream từ camera
-        # Đường dẫn RTSP từ camera và đường dẫn để lưu stream
-        rtsp_url = "rtsp://admin:admin@2024!@10.16.40.131/cam/realmonitor?channel=1&subtype=00&authbasic=YWRtaW46QWRtaW4xMjM="
-        output_path = "./static/camera/stream.m3u8"
-        start_ffmpeg(rtsp_url, output_path)
+
+        # Tạo và khởi động luồng MQTT
+        # mqtt_thread = Thread(target=start_mqtt_loop)
+        # mqtt_thread.daemon = True
+        # mqtt_thread.start()
+
         # Tạo và chạy luồng dọn dẹp
         cleaner_thread = Thread(target=run_cleaner)
         cleaner_thread.daemon = True
         cleaner_thread.start()
+
         # Khởi động Flask trong luồng chính
-        # app.run(host='0.0.0.0', port=58888, debug=Config.DEBUG)
-        app.run(host='0.0.0.0', port=58888, debug=True)
+        app.run(host='0.0.0.0', port=58888, debug=False)
     except Exception as e:
         # Ghi mã lỗi vào logging
         logger.error("Đã xảy ra lỗi: \n %s", e)
- 

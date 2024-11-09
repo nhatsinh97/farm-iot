@@ -67,7 +67,7 @@ def process_data(data):
                 "timer": timer,
                 "img": strImg64
             }
-            uv_data(data)
+            # uv_data(data)
             # with open(link + "test1.json" , 'w', encoding='utf-8') as fout:
             #     json.dump(data, fout, ensure_ascii=False, indent=4)
             #     print('Đã lưu file')
