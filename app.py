@@ -25,6 +25,7 @@ from influxdb import InfluxDBClient
 # Tạo logger
 logger = logging.getLogger('cico_log')
 logger.setLevel(logging.DEBUG)
+logger.handlers.clear()  # Xóa các handler cũ để tránh log lặp lại
 # Định dạng log
 formatter = Formatter('%(asctime)s - %(levelname)s - [in %(pathname)s:%(lineno)d] %(message)s')
 
