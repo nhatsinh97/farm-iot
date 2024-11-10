@@ -1192,10 +1192,7 @@ def start_ffmpeg(rtsp_url, output_path):
 
     # Chạy FFmpeg trong nền và không chặn ứng dụng Flask
     subprocess.Popen(ffmpeg_command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-def run_cleaner():
-    while True:
-        clean_old_ts_files(camera_directory)
-        time.sleep(60)  # Kiểm tra và dọn dẹp mỗi 60 giây
+
 def clean_old_ts_files(directory, max_files=20):
     ts_files = [f for f in os.listdir(directory) if f.endswith(".ts")]
     ts_files.sort(key=lambda x: os.path.getmtime(os.path.join(directory, x)))
@@ -1204,8 +1201,6 @@ def clean_old_ts_files(directory, max_files=20):
         for file in ts_files[:-max_files]:
             os.remove(os.path.join(directory, file))
             print(f"Đã xóa tệp: {file}")
-# Đường dẫn đến thư mục chứa các file .ts
-camera_directory = "./static/camera"
 
 
 if __name__ == '__main__':
@@ -1219,16 +1214,6 @@ if __name__ == '__main__':
         processing_thread = Thread(target=process_data_from_queue)
         processing_thread.daemon = True
         processing_thread.start()
-
-        # Tạo và khởi động luồng MQTT
-        # mqtt_thread = Thread(target=start_mqtt_loop)
-        # mqtt_thread.daemon = True
-        # mqtt_thread.start()
-
-        # Tạo và chạy luồng dọn dẹp
-        cleaner_thread = Thread(target=run_cleaner)
-        cleaner_thread.daemon = True
-        cleaner_thread.start()
 
         # Khởi động Flask trong luồng chính
         app.run(host='0.0.0.0', port=58888, debug=False)
