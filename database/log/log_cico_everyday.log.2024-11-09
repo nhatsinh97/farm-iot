@@ -1,0 +1,143 @@
+2024-11-09 19:43:39,104 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:133] Start: GF-CICO
+2024-11-09 19:43:39,105 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:146] Danh sách các cơ sở dữ liệu:
+2024-11-09 19:43:39,109 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:147] [{'name': '_internal'}, {'name': 'cico_iot'}]
+2024-11-09 19:43:39,143 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:133] Start: GF-CICO
+2024-11-09 19:43:39,144 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:146] Danh sách các cơ sở dữ liệu:
+2024-11-09 19:43:39,149 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:147] [{'name': '_internal'}, {'name': 'cico_iot'}]
+2024-11-09 19:45:12,117 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:136] Start: GF-CICO
+2024-11-09 19:45:12,117 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:149] Danh sách các cơ sở dữ liệu:
+2024-11-09 19:45:12,124 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:150] [{'name': '_internal'}, {'name': 'cico_iot'}]
+2024-11-09 19:45:12,161 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:136] Start: GF-CICO
+2024-11-09 19:45:12,161 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:149] Danh sách các cơ sở dữ liệu:
+2024-11-09 19:45:12,167 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:150] [{'name': '_internal'}, {'name': 'cico_iot'}]
+2024-11-09 19:51:43,189 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:140] Start: GF-CICO
+2024-11-09 19:51:43,191 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:153] Danh sách các cơ sở dữ liệu:
+2024-11-09 19:51:43,196 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:154] [{'name': '_internal'}, {'name': 'cico_iot'}]
+2024-11-09 19:51:43,229 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:140] Start: GF-CICO
+2024-11-09 19:51:43,231 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:153] Danh sách các cơ sở dữ liệu:
+2024-11-09 19:51:43,234 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:154] [{'name': '_internal'}, {'name': 'cico_iot'}]
+2024-11-09 19:52:19,497 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:86] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA3', 'action_name': 'end', 'timer': '87'}
+ Mã trạng thái HTTP server: 201, Phản hồi từ server: 201
+2024-11-09 19:52:19,497 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:104] Lỗi từ server: 201
+Response: 201
+Payload: data
+2024-11-09 19:52:49,594 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:86] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA1', 'action_name': 'end', 'timer': '87'}
+ Mã trạng thái HTTP server: 201, Phản hồi từ server: 201
+2024-11-09 19:52:49,595 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:104] Lỗi từ server: 201
+Response: 201
+Payload: data
+2024-11-09 19:53:22,689 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:86] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA1', 'action_name': 'start', 'timer': '87'}
+ Mã trạng thái HTTP server: 203, Phản hồi từ server: 203
+2024-11-09 19:53:22,690 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:98] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-11-09 19:53:55,423 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:86] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA3', 'action_name': 'start', 'timer': '87'}
+ Mã trạng thái HTTP server: 203, Phản hồi từ server: 203
+2024-11-09 19:53:55,423 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:98] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-11-09 19:54:25,623 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:86] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA1', 'action_name': 'end', 'timer': '87'}
+ Mã trạng thái HTTP server: 203, Phản hồi từ server: 203
+2024-11-09 19:54:25,624 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:98] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-11-09 19:54:55,812 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:86] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA3', 'action_name': 'end', 'timer': '87'}
+ Mã trạng thái HTTP server: 203, Phản hồi từ server: 203
+2024-11-09 19:54:55,813 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:98] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-11-09 19:57:13,157 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:140] Start: GF-CICO
+2024-11-09 19:57:13,157 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:153] Danh sách các cơ sở dữ liệu:
+2024-11-09 19:57:13,163 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:154] [{'name': '_internal'}, {'name': 'cico_iot'}]
+2024-11-09 19:57:13,199 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:140] Start: GF-CICO
+2024-11-09 19:57:13,200 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:153] Danh sách các cơ sở dữ liệu:
+2024-11-09 19:57:13,204 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:154] [{'name': '_internal'}, {'name': 'cico_iot'}]
+2024-11-09 19:58:07,562 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:140] Start: GF-CICO
+2024-11-09 19:58:07,563 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:153] Danh sách các cơ sở dữ liệu:
+2024-11-09 19:58:07,568 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:154] [{'name': '_internal'}, {'name': 'cico_iot'}]
+2024-11-09 19:58:07,613 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:140] Start: GF-CICO
+2024-11-09 19:58:07,613 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:153] Danh sách các cơ sở dữ liệu:
+2024-11-09 19:58:07,617 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:154] [{'name': '_internal'}, {'name': 'cico_iot'}]
+2024-11-09 19:58:47,357 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:86] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA1', 'action_name': 'start', 'timer': '87'}
+ Mã trạng thái HTTP server: 203, Phản hồi từ server: 203
+2024-11-09 19:58:47,358 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:98] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-11-09 19:59:21,261 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:86] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA3', 'action_name': 'start', 'timer': '87'}
+ Mã trạng thái HTTP server: 203, Phản hồi từ server: 203
+2024-11-09 19:59:21,262 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:98] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-11-09 20:05:30,290 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:140] Start: GF-CICO
+2024-11-09 20:05:30,291 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:153] Danh sách các cơ sở dữ liệu:
+2024-11-09 20:05:30,301 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:154] [{'name': '_internal'}, {'name': 'cico_iot'}]
+2024-11-09 20:05:30,354 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:140] Start: GF-CICO
+2024-11-09 20:05:30,355 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:153] Danh sách các cơ sở dữ liệu:
+2024-11-09 20:05:30,361 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:154] [{'name': '_internal'}, {'name': 'cico_iot'}]
+2024-11-09 20:06:29,220 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:86] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA1', 'action_name': 'end', 'timer': '87'}
+ Mã trạng thái HTTP server: 203, Phản hồi từ server: 203
+2024-11-09 20:06:29,221 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:98] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-11-09 20:06:59,396 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:86] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA3', 'action_name': 'end', 'timer': '87'}
+ Mã trạng thái HTTP server: 203, Phản hồi từ server: 203
+2024-11-09 20:06:59,397 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:98] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-11-09 20:08:02,241 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:629] 81134ab4c24
+2024-11-09 20:08:02,243 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:111] Dữ liệu không trùng khớp hoặc không tìm thấy.
+2024-11-09 20:10:57,548 - ERROR - [in /home/erpfarm/workspace/farm-iot/app.py:629] 181134ab4c24
+2024-11-09 20:11:29,800 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:86] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_2_CAMERA3', 'action_name': 'end', 'timer': '86'}
+ Mã trạng thái HTTP server: 203, Phản hồi từ server: 203
+2024-11-09 20:11:29,800 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:98] Đã cập nhật dữ liệu about: 181134ab4c24
+2024-11-09 20:13:35,083 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:86] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA1', 'action_name': 'start', 'timer': '87'}
+ Mã trạng thái HTTP server: 203, Phản hồi từ server: 203
+2024-11-09 20:13:35,083 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:98] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-11-09 20:14:34,232 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:86] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA1', 'action_name': 'end', 'timer': '87'}
+ Mã trạng thái HTTP server: 203, Phản hồi từ server: 203
+2024-11-09 20:14:34,232 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:98] Đã cập nhật dữ liệu about: 9838eee342a8
+2024-11-09 20:18:37,487 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:140] Start: GF-CICO
+2024-11-09 20:18:37,487 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:153] Danh sách các cơ sở dữ liệu:
+2024-11-09 20:18:37,492 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:154] [{'name': '_internal'}, {'name': 'cico_iot'}]
+2024-11-09 20:18:37,524 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:140] Start: GF-CICO
+2024-11-09 20:18:37,525 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:153] Danh sách các cơ sở dữ liệu:
+2024-11-09 20:18:37,528 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:154] [{'name': '_internal'}, {'name': 'cico_iot'}]
+2024-11-09 20:19:08,156 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:86] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA3', 'action_name': 'end', 'timer': '87'}
+ Mã trạng thái HTTP server: 201, Phản hồi từ server: 201
+2024-11-09 20:19:08,156 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:104] Lỗi từ server: 201
+Response: 201
+Payload: data
+2024-11-09 20:19:38,227 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:86] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA1', 'action_name': 'end', 'timer': '87'}
+ Mã trạng thái HTTP server: 201, Phản hồi từ server: 201
+2024-11-09 20:19:38,228 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:104] Lỗi từ server: 201
+Response: 201
+Payload: data
+2024-11-09 20:30:30,718 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:140] Start: GF-CICO
+2024-11-09 20:30:30,718 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:153] Danh sách các cơ sở dữ liệu:
+2024-11-09 20:30:30,723 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:154] [{'name': '_internal'}, {'name': 'cico_iot'}]
+2024-11-09 20:30:30,761 - INFO - [in app.py:140] Start: GF-CICO
+2024-11-09 20:30:30,762 - INFO - [in app.py:153] Danh sách các cơ sở dữ liệu:
+2024-11-09 20:30:30,766 - INFO - [in app.py:154] [{'name': '_internal'}, {'name': 'cico_iot'}]
+2024-11-09 20:31:03,160 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:86] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA3', 'action_name': 'end', 'timer': '87'}
+ Mã trạng thái HTTP server: 201, Phản hồi từ server: 201
+2024-11-09 20:31:03,160 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:104] Lỗi từ server: 201
+Response: 201
+Payload: data
+2024-11-09 20:31:33,231 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:86] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA1', 'action_name': 'end', 'timer': '87'}
+ Mã trạng thái HTTP server: 201, Phản hồi từ server: 201
+2024-11-09 20:31:33,231 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:104] Lỗi từ server: 201
+Response: 201
+Payload: data
+2024-11-09 23:01:47,155 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:86] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA1', 'action_name': 'start', 'timer': '87'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-11-09 23:01:47,157 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:104] Lỗi từ server: 200
+Response: 200
+Payload: data
+2024-11-09 23:02:59,123 - CRITICAL - [in /home/erpfarm/workspace/farm-iot/data_processor.py:86] 
+ Dữ liệu process_data: {'mac_address': 'GF_TN4_CAMERA1', 'action_name': 'end', 'timer': '87'}
+ Mã trạng thái HTTP server: 200, Phản hồi từ server: 200
+2024-11-09 23:02:59,124 - ERROR - [in /home/erpfarm/workspace/farm-iot/data_processor.py:104] Lỗi từ server: 200
+Response: 200
+Payload: data
