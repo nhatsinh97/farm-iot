@@ -134,13 +134,14 @@ def on_message(client, userdata, message):
             status = "start" if P1_value == 1 and previous_P1_value == 0 else "end"
             logger.critical(f"Giá trị của P1 đã thay đổi từ {previous_P1_value} thành {P1_value} với status: {status}")
             # Thêm sự kiện thay đổi vào hàng đợi logger.critical
-            data_queue.put({
+            data = {
                 "idchip": "9838eee342a8",
                 "ip": "10.16.40.38",
                 "version": "3.11",
                 "name": "uv3",
                 "status": status
-            })
+            }
+            data_queue.put(data)
             previous_P1_value = P1_value  # Cập nhật giá trị mới vào biến lưu trữ
 
         # Kiểm tra sự thay đổi giá trị P2 và cập nhật status theo điều kiện
@@ -148,13 +149,14 @@ def on_message(client, userdata, message):
             status = "start" if P2_value == 1 and previous_P2_value == 0 else "end"
             logger.critical(f"Giá trị của P2 đã thay đổi từ {previous_P2_value} thành {P2_value} với status: {status}")
             # Thêm sự kiện thay đổi vào hàng đợi với status phù hợp logger.critical
-            data_queue.put({
+            data = {
                 "idchip": "9838eee342a8",
                 "ip": "10.16.40.38",
                 "version": "3.11",
                 "name": "uv4",
                 "status": status
-            })
+            }
+            data_queue.put(data)
             previous_P2_value = P2_value  # Cập nhật giá trị mới vào biến lưu trữ
 
         # In ra dữ liệu để kiểm tra
