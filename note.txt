@@ -30,3 +30,5 @@ sudo journalctl -u cico_service
 
 Xem logs theo thời gian thực:
 sudo journalctl -u cico_service -f
+
+mosquitto_sub -h 172.17.128.24 -t PLC/LOGO -p 1883

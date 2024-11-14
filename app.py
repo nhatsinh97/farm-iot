@@ -75,10 +75,40 @@ app.register_blueprint(main)
 # Thông tin MQTT
 BROKER_ADDRESS = "172.17.128.24"
 PORT = 1883
-TOPIC = "PLC/LOGO"
-# Biến lưu trữ giá trị trước đó của P1 và P2
-previous_P1_value = None
-previous_P2_value = None
+TOPIC = "PLC/LOGO/+"  # Dùng ký tự + để lắng nghe tất cả các topic con của PLC/LOGO
+
+# Đường dẫn tới tệp JSON
+FILE_PATH_SETUP = "./database/data_setup/data_setup.json"
+# Hàm để đọc dữ liệu từ tệp JSON
+def load_data_setup():
+    with open(FILE_PATH_SETUP, "r") as file_setup:
+        return json.load(file_setup)
+# Hàm để ghi dữ liệu vào tệp JSON
+def save_data_setup(data_setup):
+    with open(FILE_PATH_SETUP, "w") as file_setup:
+        json.dump(data_setup, file_setup, indent=4)
+# Đọc dữ liệu
+data_setup = load_data_setup()
+
+# Mapping từ các cảm biến MQTT sang các phòng trong JSON dựa trên idchip
+mqtt_to_json_map = {
+    "PLC_LOGO_1": {  # Ánh xạ cho thiết bị có idchip là 9838eee342a8
+        "P1": "uv3",
+        "P2": "uv4",
+        "SUC1": "uv5",
+        "SUC2": "uv6",
+        "UVTX": "uv7",
+        "NXT": "uv8",
+        "NRX": "uv9"
+    },
+    "181134ab4c24": {  # Ánh xạ cho thiết bị có idchip là 181134ab4c24
+        "P1": "uv1",
+        "P2": "uv2",
+        "SUC1": "uv-3",
+        "SUC2": "uv-4"
+    }
+    # Thêm idchip mới và ánh xạ cảm biến tương ứng nếu cần
+}
 
 # Biến lưu trữ số lượng request của từng 'name' theo 'idchip'
 request_limit = {}
@@ -106,67 +136,81 @@ device_status = {
 # Hàm callback khi kết nối thành công
 def on_connect(client, userdata, flags, rc):
     if rc == 0:
-        # print("Kết nối đến MQTT broker thành công")
-        client.subscribe(TOPIC)
+        print("Đã kết nối với MQTT Broker!")
+        client.subscribe(TOPIC)  # Đăng ký topic với ký tự đại diện
     else:
-        logger.error(f"Lỗi kết nối với mã: {rc}")
+        print(f"Failed to connect, return code {rc}")
 
 # Hàm callback khi nhận được tin nhắn từ MQTT
 def on_message(client, userdata, message):
-    global previous_P1_value, previous_P2_value
     try:
+        # Lấy idchip từ topic
+        topic_parts = message.topic.split('/')  # Giả định topic có dạng "PLC/LOGO/<idchip>"
+        if len(topic_parts) >= 3:
+            idchip = topic_parts[2]  # Lấy idchip từ phần thứ ba của topic
+        else:
+            logger.error("Không thể xác định idchip từ topic.")
+            return
+
         # Chuyển dữ liệu JSON từ chuỗi thành từ điển Python
-        data = json.loads(message.payload.decode())
-        
-        # Trích xuất các giá trị từ dữ liệu
-        reported = data.get("state", {}).get("reported", {})
-        
-        P1_desc = reported.get("P1", {}).get("desc", "N/A")
-        P1_value = reported.get("P1", {}).get("value", [])[0] if reported.get("P1", {}).get("value") else None
-        
-        P2_desc = reported.get("P2", {}).get("desc", "N/A")
-        P2_value = reported.get("P2", {}).get("value", [])[0] if reported.get("P2", {}).get("value") else None
+        mqtt_data = json.loads(message.payload.decode())
+        reported = mqtt_data.get("state", {}).get("reported", {})
 
-        logotime = reported.get("$logotime", "N/A")
-        
-        # Kiểm tra sự thay đổi giá trị P1 và đưa vào hàng đợi nếu có thay đổi
-        if P1_value is not None and P1_value != previous_P1_value:
-            status = "start" if P1_value == 1 and previous_P1_value == 0 else "end"
-            logger.critical(f"Giá trị của P1 đã thay đổi từ {previous_P1_value} thành {P1_value} với status: {status}")
-            # Thêm sự kiện thay đổi vào hàng đợi logger.critical
-            data = {
-                "idchip": "9838eee342a8",
-                "ip": "10.16.40.38",
-                "version": "3.11",
-                "name": "uv3",
-                "status": status
-            }
-            data_queue.put(data)
-            previous_P1_value = P1_value  # Cập nhật giá trị mới vào biến lưu trữ
+        if not isinstance(reported, dict):
+            logger.error("Reported data is not in the expected format.")
+            return
 
-        # Kiểm tra sự thay đổi giá trị P2 và cập nhật status theo điều kiện
-        if P2_value is not None and P2_value != previous_P2_value:
-            status = "start" if P2_value == 1 and previous_P2_value == 0 else "end"
-            logger.critical(f"Giá trị của P2 đã thay đổi từ {previous_P2_value} thành {P2_value} với status: {status}")
-            # Thêm sự kiện thay đổi vào hàng đợi với status phù hợp logger.critical
-            data = {
-                "idchip": "9838eee342a8",
-                "ip": "10.16.40.38",
-                "version": "3.11",
-                "name": "uv4",
-                "status": status
-            }
-            data_queue.put(data)
-            previous_P2_value = P2_value  # Cập nhật giá trị mới vào biến lưu trữ
+        # Tải dữ liệu từ tệp JSON
+        data_setup = load_data_setup()
 
-        # In ra dữ liệu để kiểm tra
-        # print(f"P1 - {P1_desc}: {P1_value}")
-        # print(f"P2 - {P2_desc}: {P2_value}")
-        # print(f"Logotime: {logotime}")
-        # print("-" * 30)
-        
+        # Kiểm tra nếu idchip có trong bảng ánh xạ
+        if idchip not in mqtt_to_json_map:
+            logger.error(f"idchip {idchip} không có trong bảng ánh xạ.")
+            return
+
+        # Lấy bảng ánh xạ cho idchip hiện tại
+        idchip_map = mqtt_to_json_map[idchip]
+
+        # Hàm cập nhật trạng thái trong JSON
+        def check_and_update_value(chipid, uv_key, current_value):
+            device = data_setup["chipid"].get(chipid, {}).get(uv_key, None)
+            if device is None:
+                logger.error(f"Device {uv_key} in chipid {chipid} không tồn tại trong JSON.")
+                return
+
+            previous_value = int(device.get("previous_status", "off") == "on")
+            if current_value is not None and current_value != previous_value:
+                status = "start" if current_value == 1 and previous_value == 0 else "end"
+                logger.critical(f"Giá trị của {uv_key} đã thay đổi từ {previous_value} thành {current_value} với status: {status}")
+
+                # Thêm sự kiện thay đổi vào hàng đợi
+                event_data = {
+                    "idchip": chipid,
+                    "ip": device.get("ip"),
+                    "version": device.get("version"),
+                    "name": uv_key,
+                    "status": status
+                }
+                data_queue.put(event_data)
+
+                # Cập nhật trạng thái trước đó và trạng thái mới vào JSON
+                device["previous_status"] = device["status"]
+                device["status"] = "on" if current_value == 1 else "off"
+                save_data_setup(data_setup)
+
+        # Duyệt qua các cảm biến và cập nhật giá trị cho từng cảm biến trong idchip hiện tại
+        for mqtt_key, json_key in idchip_map.items():
+            current_value = reported.get(mqtt_key, {}).get("value", [None])[0]
+            check_and_update_value(idchip, json_key, current_value)
+
     except json.JSONDecodeError:
         logger.error("Lỗi giải mã JSON.")
+    except AttributeError as e:
+        logger.error(f"Lỗi AttributeError trong on_message: {e}")
+
+
+
+
 # Khởi tạo MQTT client bên ngoài hàm
 mqtt_client = mqtt.Client("Server_app")
 mqtt_client.on_connect = on_connect
