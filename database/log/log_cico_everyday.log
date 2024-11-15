@@ -4,3 +4,6 @@
 2024-11-15 20:42:24,807 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:50] Start: GF-CICO
 2024-11-15 20:42:24,808 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:63] Danh sách các cơ sở dữ liệu:
 2024-11-15 20:42:24,812 - INFO - [in /home/erpfarm/workspace/farm-iot/app.py:64] [{'name': '_internal'}, {'name': 'cico_iot'}]
+2024-11-15 20:49:11,458 - INFO - [in app.py:50] Start: GF-CICO
+2024-11-15 20:49:11,459 - INFO - [in app.py:63] Danh sách các cơ sở dữ liệu:
+2024-11-15 20:49:11,463 - INFO - [in app.py:64] [{'name': '_internal'}, {'name': 'cico_iot'}]
