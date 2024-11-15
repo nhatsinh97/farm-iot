@@ -11,7 +11,7 @@ import logging
 import data_processor
 import paho.mqtt.client as mqtt
 from config import Config
-from application.controllers.main_controller import main
+# from application.controllers.main_controller import main
 from logging import Formatter, StreamHandler
 from logging.handlers import TimedRotatingFileHandler
 from threading import * 
@@ -26,6 +26,7 @@ from influxdb import InfluxDBClient
 logger = logging.getLogger('cico_log')
 logger.setLevel(logging.DEBUG)
 logger.handlers.clear()  # Xóa các handler cũ để tránh log lặp lại
+
 # Định dạng log
 formatter = Formatter('%(asctime)s - %(levelname)s - [in %(pathname)s:%(lineno)d] %(message)s')
 
@@ -69,8 +70,8 @@ data_queue = queue.Queue()
 app = Flask(__name__)
 # Khóa bí mật để mã hóa session
 app.secret_key = '4s$eJ#8dLpRtYkMnCbV2gX1fA3h'
-app.config.from_object(Config)
-app.register_blueprint(main)
+# app.config.from_object(Config)
+# app.register_blueprint(main)
 
 # Thông tin MQTT
 BROKER_ADDRESS = "172.17.128.24"
@@ -92,7 +93,7 @@ data_setup = load_data_setup()
 
 # Mapping từ các cảm biến MQTT sang các phòng trong JSON dựa trên idchip
 mqtt_to_json_map = {
-    "PLC_LOGO_1": {  # Ánh xạ cho thiết bị có idchip là 9838eee342a8
+    "PLC_LOGO_1": {  # Ánh xạ cho thiết bị có idchip là PLC_LOGO_1
         "P1": "uv3",
         "P2": "uv4",
         "SUC1": "uv5",
@@ -186,12 +187,13 @@ def on_message(client, userdata, message):
                 # Thêm sự kiện thay đổi vào hàng đợi
                 event_data = {
                     "idchip": chipid,
-                    "ip": device.get("ip"),
-                    "version": device.get("version"),
+                    "ip": "10.16.40.151",
+                    "version": "123",
                     "name": uv_key,
                     "status": status
                 }
                 data_queue.put(event_data)
+                logger.critical(f"event_data = {event_data}")
 
                 # Cập nhật trạng thái trước đó và trạng thái mới vào JSON
                 device["previous_status"] = device["status"]
@@ -207,8 +209,6 @@ def on_message(client, userdata, message):
         logger.error("Lỗi giải mã JSON.")
     except AttributeError as e:
         logger.error(f"Lỗi AttributeError trong on_message: {e}")
-
-
 
 
 # Khởi tạo MQTT client bên ngoài hàm
@@ -248,7 +248,7 @@ def start_ffmpeg(rtsp_url, output_path):
     ]
 
     # Chạy FFmpeg trong nền và không chặn ứng dụng Flask
-    subprocess.Popen(ffmpeg_command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    # subprocess.Popen(ffmpeg_command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
 def ping_device(ip):
     """
@@ -796,6 +796,61 @@ def process_data_from_queue():
             processed_data = data_processor.process_data(data)
             # In kết quả xử lý (hoặc có thể làm gì đó khác với dữ liệu)
             print("Dữ liệu sau khi xử lý:", processed_data)
+def process_data_from_queue():
+    while True:
+        data = data_queue.get()  # Lấy dữ liệu từ hàng đợi
+        if data:
+            retries = 0
+            max_retries = 3
+            success = False
+
+            while retries < max_retries and not success:
+                try:
+                    # Gửi dữ liệu qua file phụ để xử lý và nhận phản hồi
+                    processed_data = data_processor.process_data(data)
+                    
+                    # Kiểm tra mã phản hồi của request
+                    if processed_data.get("status_code") == 200:
+                        success = True
+                        print("Dữ liệu sau khi xử lý:", processed_data)
+                        update_status_in_json(data.get("idchip"), data)  # Cập nhật trạng thái
+                    else:
+                        retries += 1
+                        print(f"Lần thử thứ {retries} không thành công. Mã phản hồi: {processed_data.get('status_code')}")
+                        time.sleep(1)  # Tạm dừng trước khi thử lại
+                except Exception as e:
+                    retries += 1
+                    print(f"Lỗi khi xử lý dữ liệu: {e}")
+                    time.sleep(1)  # Tạm dừng trước khi thử lại
+
+            if not success:
+                print(f"Sự kiện với idchip {data.get('idchip')} thất bại sau {max_retries} lần thử.")
+
+            data_queue.task_done()
+# Hàm cập nhật trạng thái vào file JSON
+def update_status_in_json(idchip, event_data):
+    try:
+        # Tải dữ liệu JSON
+        data_setup = load_data_setup()
+
+        # Tìm thiết bị tương ứng trong JSON
+        device = data_setup["chipid"].get(idchip)
+        if not device:
+            print(f"Không tìm thấy idchip {idchip} trong JSON.")
+            return
+
+        # Cập nhật trạng thái
+        uv_key = event_data.get("name")
+        if uv_key in device:
+            device[uv_key]["status"] = event_data["status"]
+            device[uv_key]["previous_status"] = "on" if event_data["status"] == "start" else "off"
+
+        # Lưu lại vào file JSON
+        save_data_setup(data_setup)
+        print(f"Trạng thái của idchip {idchip} đã được cập nhật trong JSON.")
+    except Exception as e:
+        print(f"Lỗi khi cập nhật JSON cho idchip {idchip}: {e}")
+
 @app.route('/access_history', methods=['GET', 'POST'])
 def access_history():
     users = load_users()
@@ -1230,7 +1285,7 @@ def start_ffmpeg(rtsp_url, output_path):
     ]
 
     # Chạy FFmpeg trong nền và không chặn ứng dụng Flask
-    subprocess.Popen(ffmpeg_command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    # subprocess.Popen(ffmpeg_command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
 def clean_old_ts_files(directory, max_files=20):
     ts_files = [f for f in os.listdir(directory) if f.endswith(".ts")]
@@ -1255,7 +1310,7 @@ if __name__ == '__main__':
         processing_thread.start()
 
         # Khởi động Flask trong luồng chính
-        app.run(host='0.0.0.0', port=58888, debug=False)
+        app.run(host='0.0.0.0', port=58888, debug=True)
     except Exception as e:
         # Ghi mã lỗi vào logging
         logger.error("Đã xảy ra lỗi: \n %s", e)

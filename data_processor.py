@@ -5,7 +5,7 @@ import threading
 from urllib3.exceptions import *
 import requests
 import base64
-from app import logger, uv_data
+# from app import logger, uv_data
 # Tắt cảnh báo liên quan đến SSL
 # http = urllib3.PoolManager()
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
@@ -67,15 +67,11 @@ def process_data(data):
                 "timer": timer,
                 "img": strImg64
             }
-            # uv_data(data)
-            # with open(link + "test1.json" , 'w', encoding='utf-8') as fout:
-            #     json.dump(data, fout, ensure_ascii=False, indent=4)
-            #     print('Đã lưu file')
 
             # gui data
             r = requests.post("http://172.17.128.50:58185/api/Farm/postbiohistory", json.dumps(data), headers = {'Content-type': 'application/json', 'Accept': 'text/plain'})
-            # code = r.status_code
-            code = r.json()
+            code = r.status_code
+            # code = r.json()
             response_text = r.text  # Lấy nội dung trả về từ server
             # Ghi log kết quả sau khi xử lý
             data_log = {
@@ -87,26 +83,26 @@ def process_data(data):
             # logger.critical("\n Dữ liệu process_data: %s\n Mã trạng thái HTTP server: %s", data_log, code)
 
             # Kiểm tra nếu mã phản hồi là 200 và phản hồi là hợp lệ
-            if code == 200:
-                # Cập nhật giá trị ip, version vào dữ liệu chính
-                if 'about' in data_json['chipid'][api_value]:
-                    data_json['chipid'][api_value]['about']['ip'] = ip
-                    data_json['chipid'][api_value]['about']['version'] = version
-                    # Lưu đối tượng dictionary thành file JSON
-                    with open(link + file, 'w', encoding='utf-8') as fout:
-                        json.dump(data_json, fout, ensure_ascii=False, indent=4)
-                        logger.critical('Đã cập nhật dữ liệu about: %s', api_value)
-                else:
-                    logger.error("data api:%s data chipip: %s không tồn tại trong data_json: ", api_value, chip_data)
-                    return "Lỗi api_value", 400
+            # if code == 200:
+            #     # Cập nhật giá trị ip, version vào dữ liệu chính
+            #     if 'about' in data_json['chipid'][api_value]:
+            #         data_json['chipid'][api_value]['about']['ip'] = ip
+            #         data_json['chipid'][api_value]['about']['version'] = version
+            #         # Lưu đối tượng dictionary thành file JSON
+            #         with open(link + file, 'w', encoding='utf-8') as fout:
+            #             json.dump(data_json, fout, ensure_ascii=False, indent=4)
+            #             logger.critical('Đã cập nhật dữ liệu about: %s', api_value)
+            #     else:
+            #         logger.error("data api:%s data chipip: %s không tồn tại trong data_json: ", api_value, chip_data)
+            #         return "Lỗi api_value", 400
             
-            if code != 200:
-                logger.error("Lỗi từ server: %s\nResponse: %s\nPayload: data", code, response_text)
-            return ("Mã trạng thái HTTP server:", code)
+            # if code != 200:
+            #     logger.error("Lỗi từ server: %s\nResponse: %s\nPayload: data", code, response_text)
+            return code
             
         else:
             logger.error(" \n Không tìm thấy thông tin cho ID: %s -> %s -> %s", api_value, name, status)
-            return api_value, name, status
+            return code
     else:
         logger.error("Dữ liệu không trùng khớp hoặc không tìm thấy.")
         return None
