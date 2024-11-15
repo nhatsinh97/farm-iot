@@ -3,7 +3,7 @@ import base64
 import uuid
 import random
 import queue
-import subprocess
+import socket
 import ast
 import json
 import time
@@ -231,34 +231,18 @@ mqtt_thread = Thread(target=start_mqtt_loop)
 mqtt_thread.daemon = True
 mqtt_thread.start()
 
-def start_ffmpeg(rtsp_url, output_path):
-    ffmpeg_command = [
-        "ffmpeg",
-        "-i", rtsp_url,
-        "-c:v", "libx264",
-        "-preset", "veryfast",
-        "-b:v", "1500k",
-        "-maxrate", "1500k",
-        "-bufsize", "3000k",
-        "-f", "hls",
-        "-hls_time", "2",
-        "-hls_list_size", "10",
-        "-hls_flags", "delete_segments",
-        output_path
-    ]
 
-    # Chạy FFmpeg trong nền và không chặn ứng dụng Flask
-    # subprocess.Popen(ffmpeg_command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-
-def ping_device(ip):
+def ping_device(ip, port=80, timeout=1):
     """
-    Ping đến địa chỉ IP, trả về True nếu online, False nếu offline.
+    Kiểm tra kết nối đến địa chỉ IP bằng cách mở kết nối TCP đến một cổng.
+    Trả về True nếu online, False nếu offline.
     """
     try:
-        # Sử dụng lệnh ping trên hệ điều hành (tùy hệ điều hành mà cú pháp có thể thay đổi)
-        output = subprocess.check_output(["ping", "-c", "1", "-W", "1", ip], stderr=subprocess.STDOUT)
+        # Tạo một socket và thiết lập thời gian chờ
+        sock = socket.create_connection((ip, port), timeout)
+        sock.close()  # Đóng kết nối sau khi kiểm tra
         return True
-    except subprocess.CalledProcessError:
+    except (socket.timeout, socket.error):
         return False
 
 def count_online_offline_devices():
@@ -1267,25 +1251,6 @@ def get_device_events():
         return jsonify(event_list)
     except Exception as e:
         return jsonify({"error": str(e)})
-
-def start_ffmpeg(rtsp_url, output_path):
-    ffmpeg_command = [
-        "ffmpeg",
-        "-i", rtsp_url,
-        "-c:v", "libx264",
-        "-preset", "veryfast",
-        "-b:v", "1500k",
-        "-maxrate", "1500k",
-        "-bufsize", "3000k",
-        "-f", "hls",
-        "-hls_time", "2",
-        "-hls_list_size", "10",
-        "-hls_flags", "delete_segments+append_list",
-        output_path
-    ]
-
-    # Chạy FFmpeg trong nền và không chặn ứng dụng Flask
-    # subprocess.Popen(ffmpeg_command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
 def clean_old_ts_files(directory, max_files=20):
     ts_files = [f for f in os.listdir(directory) if f.endswith(".ts")]
