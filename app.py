@@ -44,7 +44,9 @@ logger.addHandler(file_handler)
 
 # Đảm bảo không có nhiều file handlers (cách tối ưu)
 logger.handlers = [stream_handler, file_handler]
-
+if not logger.hasHandlers():
+    logger.addHandler(stream_handler)
+    logger.addHandler(file_handler)
 logger.info("Start: GF-CICO")
 
 # Thông tin kết nối
@@ -772,14 +774,14 @@ def get_device_requests():
 
     return jsonify({'total_requests_today': device_requests[idchip][today]})
 
-def process_data_from_queue():
-    while True:
-        data = data_queue.get()  # Lấy dữ liệu từ hàng đợi
-        if data:
-            # Gửi dữ liệu qua file phụ để xử lý
-            processed_data = data_processor.process_data(data)
-            # In kết quả xử lý (hoặc có thể làm gì đó khác với dữ liệu)
-            print("Dữ liệu sau khi xử lý:", processed_data)
+# def process_data_from_queue():
+#     while True:
+#         data = data_queue.get()  # Lấy dữ liệu từ hàng đợi
+#         if data:
+#             # Gửi dữ liệu qua file phụ để xử lý
+#             processed_data = data_processor.process_data(data)
+#             # In kết quả xử lý (hoặc có thể làm gì đó khác với dữ liệu)
+#             print("Dữ liệu sau khi xử lý:", processed_data)
 def process_data_from_queue():
     while True:
         data = data_queue.get()  # Lấy dữ liệu từ hàng đợi
@@ -790,10 +792,10 @@ def process_data_from_queue():
 
             while retries < max_retries and not success:
                 try:
-                    # Gửi dữ liệu qua file phụ để xử lý và nhận phản hồi
                     processed_data = data_processor.process_data(data)
-                    
-                    # Kiểm tra mã phản hồi của request
+                    if not isinstance(processed_data, dict):
+                        raise ValueError(f"Expected dict, got {type(processed_data)}: {processed_data}")
+                    # Kiểm tra mã trạng thái
                     if processed_data.get("status_code") == 200:
                         success = True
                         print("Dữ liệu sau khi xử lý:", processed_data)
@@ -804,7 +806,7 @@ def process_data_from_queue():
                         time.sleep(1)  # Tạm dừng trước khi thử lại
                 except Exception as e:
                     retries += 1
-                    print(f"Lỗi khi xử lý dữ liệu: {e}")
+                    logger.error(f"Lỗi khi xử lý dữ liệu: {e}")
                     time.sleep(1)  # Tạm dừng trước khi thử lại
 
             if not success:
@@ -1275,7 +1277,7 @@ if __name__ == '__main__':
         processing_thread.start()
 
         # Khởi động Flask trong luồng chính
-        app.run(host='0.0.0.0', port=58888, debug=True)
+        app.run(host='0.0.0.0', port=58888, debug=False)
     except Exception as e:
         # Ghi mã lỗi vào logging
         logger.error("Đã xảy ra lỗi: \n %s", e)
